@@ -3,4 +3,5 @@
   (lib (name "sd_card_holder")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-06-25_17-33-30.kicad_sym")(options "")(descr ""))
   (lib (name "voltage_switch")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-06-25_18-05-55.kicad_sym")(options "")(descr ""))
   (lib (name "esp32-mini")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESP32-S3-MINI-1-N8.kicad_sym")(options "")(descr ""))
+  (lib (name "buck_conv")(type "KiCad")(uri "${KIPRJMOD}/symbols/LMR436-BUCK.kicad_sym")(options "")(descr ""))
 )
