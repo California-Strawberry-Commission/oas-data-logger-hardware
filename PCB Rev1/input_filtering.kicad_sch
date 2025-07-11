@@ -873,6 +873,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "add in the schottkey diode\n"
+		(exclude_from_sim no)
+		(at 70.612 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ed5c91b-6d00-46b1-8f79-ff04626a54f1")
+	)
+	(text "todo: source footprints and 3D models for components."
+		(exclude_from_sim no)
+		(at 78.74 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c18fd07d-8675-4c2e-a66f-35882aebd8e4")
+	)
+	(text "add in the TVS diode"
+		(exclude_from_sim no)
+		(at 67.818 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5dfed07-2198-4350-a55f-c439650e6a44")
+	)
 	(junction
 		(at 194.31 85.09)
 		(diameter 0)
@@ -2085,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RPE0009A-MFG"
+		(property "Footprint" "footprints:RPE0009A-MFG"
 			(at 128.27 50.8 0)
 			(effects
 				(font
