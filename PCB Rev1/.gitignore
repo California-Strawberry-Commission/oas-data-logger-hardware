@@ -1,0 +1,82 @@
+# KiCad temporary files
+*.tmp
+*-cache.lib
+*-cache.dcm
+*-cache.kicad_sym
+fp-info-cache
+
+# KiCad netlist files
+*.net
+
+# KiCad autorouter files
+*.ses
+
+# KiCad backup files
+*.bak
+*.bck
+*-backup
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+
+# KiCad lock files
+*.lck
+*.lock
+
+# KiCad auto-generated files
+*-rescue.lib
+*-rescue.dcm
+*-rescue.kicad_sym
+*-rescue.kicad_sch
+
+# KiCad temporary library files
+*.lib.tmp
+*.dcm.tmp
+
+# KiCad fabrication outputs (optional - uncomment if you don't want to track these)
+# gerbers/
+# *.gbr
+# *.gbl
+# *.gbo
+# *.gbs
+# *.gbp
+# *.gto
+# *.gts
+# *.gtp
+# *.gtl
+# *.g[0-9][0-9]
+# *.drl
+# *.xln
+# *.pos
+# *.rpt
+# *.csv
+# *.pdf
+
+# KiCad 3D model cache
+*.3dshapes/
+
+# KiCad plugin temporary files
+*.pyc
+__pycache__/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build directories
+build/
+dist/
+*.egg-info/
