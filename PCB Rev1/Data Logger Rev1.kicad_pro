@@ -693,16 +693,16 @@
       "Root"
     ],
     [
-      "1f4eef8a-98e8-4167-8e58-ac4ffd368a0f",
-      "power_switch"
-    ],
-    [
       "9457203e-0dfd-4ada-afdd-4fb87fc753fe",
       "input_filtering"
     ],
     [
       "bd9aac45-993f-40fd-968b-e22082f91f97",
-      "GPS Module"
+      "GPS_MODULE"
+    ],
+    [
+      "048dc337-1c7f-4a56-8328-ea8e3d5b9ce9",
+      "MICRO_SD_CARD"
     ]
   ],
   "text_variables": {}

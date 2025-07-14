@@ -7,4 +7,5 @@
   (lib (name "esp32-s3-..1u")(type "KiCad")(uri "${KIPRJMOD}/symbols/ESP32-S3-MINI-1U-N8.kicad_sym")(options "")(descr ""))
   (lib (name "LT3042EDD_PBF")(type "KiCad")(uri "${KIPRJMOD}/symbols/LT3042EDD_PBF.kicad_sym")(options "")(descr ""))
   (lib (name "Neopixel")(type "KiCad")(uri "${KIPRJMOD}/symbols/4492.kicad_sym")(options "")(descr ""))
+  (lib (name "tvs-4chan")(type "KiCad")(uri "${KIPRJMOD}/symbols/DT1240-04LP-7.kicad_sym")(options "")(descr ""))
 )
