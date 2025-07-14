@@ -6497,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "BATTERY_PLUG (JST CONNECTOR??)"
 			(at 46.355 96.52 0)
 			(effects
 				(font
