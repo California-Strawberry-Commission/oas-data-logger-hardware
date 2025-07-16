@@ -694,15 +694,23 @@
     ],
     [
       "9457203e-0dfd-4ada-afdd-4fb87fc753fe",
-      "input_filtering"
+      "12V->5V BUCK"
     ],
     [
-      "bd9aac45-993f-40fd-968b-e22082f91f97",
-      "GPS_MODULE"
+      "ea6d7d35-359b-46e3-8243-644faf3ea185",
+      "LOAD_SHARING_&_BAT_CHRG"
     ],
     [
       "048dc337-1c7f-4a56-8328-ea8e3d5b9ce9",
       "MICRO_SD_CARD"
+    ],
+    [
+      "d189fb14-1a29-4323-9eac-9960cf5e0868",
+      "5V-3.7V -> 3.3V"
+    ],
+    [
+      "905a8709-dadb-438d-a64a-98151fb9a03c",
+      "EN_SWITCH"
     ]
   ],
   "text_variables": {}

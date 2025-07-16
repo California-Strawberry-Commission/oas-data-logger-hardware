@@ -1991,7 +1991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RPE0009A-MFG"
 			(at 128.27 50.8 0)
 			(effects
 				(font

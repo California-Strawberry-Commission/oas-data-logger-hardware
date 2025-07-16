@@ -8,4 +8,7 @@
   (lib (name "LT3042EDD_PBF")(type "KiCad")(uri "${KIPRJMOD}/symbols/LT3042EDD_PBF.kicad_sym")(options "")(descr ""))
   (lib (name "Neopixel")(type "KiCad")(uri "${KIPRJMOD}/symbols/4492.kicad_sym")(options "")(descr ""))
   (lib (name "tvs-4chan")(type "KiCad")(uri "${KIPRJMOD}/symbols/DT1240-04LP-7.kicad_sym")(options "")(descr ""))
+  (lib (name "batt_ic")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCP73871-2CCI_ML.kicad_sym")(options "")(descr ""))
+  (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7A4700RGWR.kicad_sym")(options "")(descr ""))
+  (lib (name "tvs")(type "KiCad")(uri "${KIPRJMOD}/symbols/SP0503BAHTG.kicad_sym")(options "")(descr ""))
 )

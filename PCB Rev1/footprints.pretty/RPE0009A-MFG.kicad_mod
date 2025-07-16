@@ -1,6 +1,6 @@
 (footprint "RPE0009A-MFG" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tags "LMR43620MSC3RPERQ1 ")
+  (tags "LMR43620MSC5RPERQ1 ")
   (attr smd)
   (fp_text reference "REF**" (at 0 0 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
