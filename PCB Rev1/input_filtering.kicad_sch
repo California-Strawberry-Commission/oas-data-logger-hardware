@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "479c7db9-a818-4872-9d96-fe3080c6d0b0")
 	(paper "A4")
+	(title_block
+		(title "12V Switching Regulator")
+		(date "2025-07-29")
+		(company "California Strawberry Commission")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -883,6 +888,16 @@
 		)
 		(uuid "5ed5c91b-6d00-46b1-8f79-ff04626a54f1")
 	)
+	(text "find 50V rated good quality x7 ceramic caps\n"
+		(exclude_from_sim no)
+		(at 79.502 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8657cd67-83ec-45da-a233-eb97aa6c096f")
+	)
 	(text "todo: source footprints and 3D models for components."
 		(exclude_from_sim no)
 		(at 78.74 100.076 0)
@@ -892,16 +907,6 @@
 			)
 		)
 		(uuid "c18fd07d-8675-4c2e-a66f-35882aebd8e4")
-	)
-	(text "add in the TVS diode"
-		(exclude_from_sim no)
-		(at 67.818 108.966 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f5dfed07-2198-4350-a55f-c439650e6a44")
 	)
 	(junction
 		(at 194.31 85.09)
@@ -992,6 +997,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de41e3bf-c056-4575-8b1f-bb5b8a8f5f3d")
+	)
+	(no_connect
+		(at 128.27 73.66)
+		(uuid "6da844d5-c21d-4c07-aca9-9c4f0d786320")
 	)
 	(wire
 		(pts
@@ -1455,7 +1464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d7f841-1fdd-4df9-abaf-d44bb4e2c814")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 74.93 72.3899 0)
 			(effects
 				(font
@@ -1509,7 +1518,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1525,7 +1534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31534e4d-a9bc-4fdd-b010-156272d82634")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -1575,7 +1584,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1591,7 +1600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ea90500-8bd5-4b90-968d-7f911e46b0c4")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 87.63 63.4999 0)
 			(effects
 				(font
@@ -1654,7 +1663,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1670,7 +1679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627e2e80-89f2-4090-94ae-832febf8c9a8")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 102.87 63.4999 0)
 			(effects
 				(font
@@ -1733,7 +1742,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1749,7 +1758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71644ddb-0f4d-47c7-bdb4-b7691ba900ba")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 254 64.7699 0)
 			(effects
 				(font
@@ -1812,7 +1821,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1828,7 +1837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774a3fa8-2648-4a83-adfb-77205aa46ab3")
-		(property "Reference" "C12"
+		(property "Reference" "C1"
 			(at 55.88 72.3899 0)
 			(effects
 				(font
@@ -1882,7 +1891,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C12")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1898,7 +1907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adf1c69d-38d5-4dd5-aa8b-1e78a82c6eb3")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 198.12 43.18 90)
 			(effects
 				(font
@@ -1959,7 +1968,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1975,7 +1984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1372217-c279-499d-a5e8-3e1752f397eb")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 158.75 40.64 0)
 			(effects
 				(font
@@ -2059,7 +2068,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2220,7 +2229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c72442ee-8520-46f6-a891-c2f1cd361938")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 73.66 55.8799 0)
 			(effects
 				(font
@@ -2274,7 +2283,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2290,7 +2299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd53c897-3432-463d-bbe8-efbc59dbbf4c")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 115.57 71.1199 0)
 			(effects
 				(font
@@ -2353,7 +2362,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
