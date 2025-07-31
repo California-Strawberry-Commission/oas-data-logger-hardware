@@ -759,6 +759,10 @@
     [
       "c47445fe-62a9-4b15-9dc8-00b9613b3005",
       "ESP32-S3-MINI-1U"
+    ],
+    [
+      "7903d3ad-938e-4d3b-ad12-d3db232c204d",
+      "GPS Module"
     ]
   ],
   "text_variables": {}
