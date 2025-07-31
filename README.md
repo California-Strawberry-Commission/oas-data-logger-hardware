@@ -29,13 +29,12 @@ The hardware design prioritizes low-power operation, high-speed data throughput,
 
 ## 3. Core Components
 
-| Component             | Part Number / Series    | Function                   | Key Rationale                                                                       |
-| --------------------- | ----------------------- | -------------------------- | ----------------------------------------------------------------------------------- |
-| **Microcontroller**   | ESP32-S3-MINI-1         | Main Processor, Wi-Fi/BLE  | Native USB, dedicated SDIO pins (no eFuse required), powerful dual-core CPU.        |
-| **GPS/GNSS Module**   | u-blox SAM-M10Q         | High-Precision Positioning | High sensitivity (-165 dBm), concurrent constellation support, integrated antenna.  |
-| **SD Card Interface** | Standard microSD Socket | Local Data Storage         | 4-bit SDIO for high-speed logging ensures no data loss during intensive operations. |
-| **Peripheral Switch** |                         | Power Gating               | Low Rds(on) load switch completely cuts power to peripherals during deep sleep.     |
-| **Voltage Regulator** | TBD Buck Converter      | Power Regulation           | Steps down 12V vehicle supply to stable 3.3V for onboard electronics.               |
+| Component              | Part Number / Series    | Function                   | Key Rationale                                                                       |
+| ---------------------  | ----------------------- | -------------------------- | ----------------------------------------------------------------------------------- |
+| **Microcontroller**    | ESP32-S3-MINI-1U        | Main Processor, Wi-Fi/BLE  | Native USB, dedicated SDIO pins (no eFuse required), powerful dual-core CPU.        |
+| **GPS/GNSS Module**    | u-blox SAM-M10Q         | High-Precision Positioning | High sensitivity (-165 dBm), concurrent constellation support, integrated antenna.  |
+| **SD Card Interface**  | Standard microSD Socket | Local Data Storage         | 4-bit SDIO for high-speed logging ensures no data loss during intensive operations. |
+| **Voltage Regulators** | Buck Converters and LDO      | Power Regulation           | Steps down 12V vehicle supply and 5V usb to stable 3.3V for onboard electronics.      |
 
 ---
 
