@@ -11,4 +11,5 @@
   (lib (name "batt_ic")(type "KiCad")(uri "${KIPRJMOD}/symbols/MCP73871-2CCI_ML.kicad_sym")(options "")(descr ""))
   (lib (name "LDO")(type "KiCad")(uri "${KIPRJMOD}/symbols/TPS7A4700RGWR.kicad_sym")(options "")(descr ""))
   (lib (name "tvs")(type "KiCad")(uri "${KIPRJMOD}/symbols/SP0503BAHTG.kicad_sym")(options "")(descr ""))
+  (lib (name "TestPoint_Copy")(type "KiCad")(uri "${KIPRJMOD}/TestPoint_Copy.kicad_sym")(options "")(descr ""))
 )

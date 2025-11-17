@@ -430,7 +430,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U4"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -446,7 +446,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOT26-A1-AP22653Q_DIO"
+			(property "Footprint" "footprints:SOT26-A1-AP22653Q_DIO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -501,59 +501,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP22653QW6-7_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
+			(symbol "AP22653QW6-7_1_1"
+				(rectangle
+					(start 7.62 6.35)
+					(end 33.02 -11.43)
 					(stroke
-						(width 0.127)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
+				(pin power_in line
 					(at 0 0 0)
 					(length 7.62)
-					(name "in"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -571,7 +534,7 @@
 				(pin power_out line
 					(at 0 -2.54 0)
 					(length 7.62)
-					(name "gnd"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -589,7 +552,7 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 7.62)
-					(name "en"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -604,10 +567,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 40.64 0 180)
 					(length 7.62)
-					(name "out"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -625,7 +588,7 @@
 				(pin output line
 					(at 40.64 -2.54 180)
 					(length 7.62)
-					(name "ilim"
+					(name "ILIM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -643,7 +606,7 @@
 				(pin output line
 					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "*fault"
+					(name "*FAULT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1035,6 +998,130 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 171.45 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "185aacb5-6851-496a-9c0c-8668f7433278")
+		(property "Reference" "C18"
+			(at 175.26 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 175.26 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 172.4152 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACAUTO/8572409"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0603C104K8RACAUTO"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7eddf0c8-cb4f-4c86-8179-cb2f0403fbcb")
+		)
+		(pin "1"
+			(uuid "9e5e82b0-63d8-4f36-8824-80a86d15568f")
+		)
+		(instances
+			(project "Data Logger Rev1"
+				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 110.49 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1043,7 +1130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c94103f-8777-4c57-bb91-c30a1a4fb91b")
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at 114.3 104.1399 0)
 			(effects
 				(font
@@ -1061,7 +1148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 109.22 0)
 			(effects
 				(font
@@ -1070,7 +1157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACAUTO/8572409"
 			(at 110.49 105.41 0)
 			(effects
 				(font
@@ -1088,6 +1175,60 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0603C104K8RACAUTO"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cea7a554-2a35-4368-9b82-69a8ea2443c4")
 		)
@@ -1097,7 +1238,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
-					(reference "C18")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1131,7 +1272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RESC1005X35N"
 			(at 183.896 105.664 90)
 			(effects
 				(font
@@ -1140,7 +1281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0402BTE40K0/6259278"
 			(at 182.88 105.41 0)
 			(effects
 				(font
@@ -1150,6 +1291,60 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RNCF0402BTE40K0"
 			(at 182.88 105.41 0)
 			(effects
 				(font
@@ -1174,76 +1369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 97.79 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ca91a52-5a61-4056-8f0a-8f727eecefe7")
-		(property "Reference" "C17"
-			(at 101.6 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 101.6 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 98.7552 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac352d17-619d-48c4-93eb-5108916a1e1a")
-		)
-		(pin "1"
-			(uuid "1eebab63-2ac2-4998-b4cf-0b068dee42e9")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 146.05 118.11 0)
 		(unit 1)
@@ -1253,7 +1378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7949613d-89ea-48f9-ab98-a9388a4d6169")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR012"
 			(at 146.05 124.46 0)
 			(effects
 				(font
@@ -1303,156 +1428,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 171.45 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bc669b7-4bab-4188-89ed-661e0fba787f")
-		(property "Reference" "C19"
-			(at 175.26 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 175.26 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.4152 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 171.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 171.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d98c823-793d-4e8a-9c56-4d8a28355147")
-		)
-		(pin "2"
-			(uuid "bdc9f7c9-5f43-4931-934f-81600a4fbf84")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 166.37 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b17d945a-9424-4b49-a025-04ac29ac99e0")
-		(property "Reference" "R11"
-			(at 168.91 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 168.91 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.386 84.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 166.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93802165-b7ea-4164-be52-0c00213df53d")
-		)
-		(pin "1"
-			(uuid "0e5044b2-d6c8-4179-812e-3e0c3dd58b06")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
-					(reference "R11")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1513,6 +1489,60 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "AP22653QW6-7"
+			(at 124.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0d6e6b8-76e8-4502-a872-00b96f721608")
 		)
@@ -1535,6 +1565,254 @@
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 166.37 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef961f95-88eb-4ceb-aeb3-8581425e1bf5")
+		(property "Reference" "R11"
+			(at 168.91 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 168.91 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.386 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1002F/9844954"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RK73H1JTTD1002F"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d390b370-ed8b-4105-9a25-2d3e5295db1a")
+		)
+		(pin "2"
+			(uuid "5049d076-456c-4d9d-bcc9-f6cf135c365d")
+		)
+		(instances
+			(project "Data Logger Rev1"
+				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 97.79 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f448a7b1-883d-4a13-82fb-f7422ea1ae13")
+		(property "Reference" "C16"
+			(at 101.6 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 101.6 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 98.7552 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR71A106KE22K/4903979"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "GCM21BR71A106KE22K"
+			(at 97.79 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77c2ad87-6ed2-4886-a955-c07151306479")
+		)
+		(pin "2"
+			(uuid "5248daeb-b196-4934-a82b-ed84ed392ac4")
+		)
+		(instances
+			(project "Data Logger Rev1"
+				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
+					(reference "C16")
 					(unit 1)
 				)
 			)

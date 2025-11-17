@@ -160,8 +160,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "D3"
+				(at -0.3175 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -169,14 +169,14 @@
 				)
 			)
 			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
+				(at -0.3175 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:CR_SMP_DO-220AA_VIS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -185,7 +185,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/SS2PH5HM3-84A/5427035"
 				(at 0 0 0)
 				(effects
 					(font
@@ -224,19 +224,7 @@
 			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -252,6 +240,18 @@
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0.635) (xy 1.905 1.27) (xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -641,23 +641,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U1"
+				(at 30.48 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "LMR43620MSC3RPERQ1"
-				(at 0 0 0)
+			(property "Value" "LMR43620MSC5-Q1RPE"
+				(at 30.48 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "RPE0009A-MFG"
+			(property "Footprint" "footprints:RPE0009A-MFG"
 				(at 0 0 0)
 				(effects
 					(font
@@ -678,6 +678,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part #" "LMR43620MSC5-Q1RPE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -713,54 +722,6 @@
 				)
 			)
 			(symbol "LMR43620MSC3RPERQ1_0_1"
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 -25.4)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -25.4) (xy 55.88 -25.4)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 55.88 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 55.88 -25.4) (xy 55.88 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin power_in line
 					(at 0 0 0)
 					(length 5.08)
@@ -924,6 +885,19 @@
 					)
 				)
 			)
+			(symbol "LMR43620MSC3RPERQ1_1_1"
+				(rectangle
+					(start 5.08 5.08)
+					(end 55.88 -27.94)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
@@ -1028,37 +1002,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "add in the schottkey diode\n"
-		(exclude_from_sim no)
-		(at 70.612 104.648 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5ed5c91b-6d00-46b1-8f79-ff04626a54f1")
-	)
-	(text "todo: source footprints and 3D models for components."
-		(exclude_from_sim no)
-		(at 78.74 100.076 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c18fd07d-8675-4c2e-a66f-35882aebd8e4")
-	)
 	(junction
 		(at 194.31 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03d889bc-8d3f-4008-9d98-e70fdc75ebed")
-	)
-	(junction
-		(at 60.96 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c3d70e0-2419-4bec-9e96-09e6913c0bc2")
 	)
 	(junction
 		(at 60.96 50.8)
@@ -1071,12 +1019,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2597eef1-5f04-44ba-87a2-9f26a20287d8")
-	)
-	(junction
-		(at 48.26 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a42f1d9-00f8-45d1-a2f9-8929f5f1dc65")
 	)
 	(junction
 		(at 203.2 50.8)
@@ -1226,16 +1168,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 50.8) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c2713c3-132e-473f-b83f-820f94d9f190")
-	)
-	(wire
-		(pts
 			(xy 250.19 50.8) (xy 250.19 62.23)
 		)
 		(stroke
@@ -1276,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 50.8) (xy 48.26 50.8)
+			(xy 55.88 50.8) (xy 60.96 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1336,26 +1268,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 85.09) (xy 60.96 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59bb115d-705e-4a27-b3ce-c198406d299c")
-	)
-	(wire
-		(pts
-			(xy 48.26 77.47) (xy 48.26 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a6864e3-0321-4bf3-a76c-42a943ee2413")
-	)
-	(wire
-		(pts
 			(xy 203.2 50.8) (xy 214.63 50.8)
 		)
 		(stroke
@@ -1406,23 +1318,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 50.8) (xy 36.83 50.8)
+			(xy 34.29 50.8) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6ce276d4-4534-4242-85c7-c3ed5e75c7fc")
-	)
-	(wire
-		(pts
-			(xy 48.26 50.8) (xy 48.26 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "851728fd-c555-449d-a189-f8c2c01ddfca")
 	)
 	(wire
 		(pts
@@ -1634,6 +1536,26 @@
 		)
 		(uuid "f29a3276-3dee-4c24-a57d-9fe945e36e5d")
 	)
+	(label "V_IN_BUCK"
+		(at 102.87 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92d50af2-ace4-40e3-9424-72330bfa13c0")
+	)
+	(label "PI_IN"
+		(at 60.96 57.15 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed8d589f-5023-4f10-9e78-b10e48305861")
+	)
 	(hierarchical_label "V_TRACTOR"
 		(shape input)
 		(at 34.29 50.8 180)
@@ -1666,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d7f841-1fdd-4df9-abaf-d44bb4e2c814")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 77.47 72.3899 0)
 			(effects
 				(font
@@ -1684,7 +1606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC2012X150N"
 			(at 74.6252 77.47 0)
 			(effects
 				(font
@@ -1693,7 +1615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA4J1X7R1H475K125AC/9742505"
 			(at 73.66 73.66 0)
 			(effects
 				(font
@@ -1711,6 +1633,60 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CGA4J1X7R1H475K125AC"
+			(at 73.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a53f5bc-ac06-4e16-8333-e932a6347bfe")
 		)
@@ -1720,7 +1696,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1736,7 +1712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31534e4d-a9bc-4fdd-b010-156272d82634")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 157.48 91.44 0)
 			(effects
 				(font
@@ -1786,7 +1762,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1802,7 +1778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ea90500-8bd5-4b90-968d-7f911e46b0c4")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 90.17 63.4999 0)
 			(effects
 				(font
@@ -1820,7 +1796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC2012X150N"
 			(at 87.3252 68.58 0)
 			(effects
 				(font
@@ -1847,7 +1823,52 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "CGA4J1X7R1H475K125AC"
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
 			(at 86.36 64.77 0)
 			(effects
 				(font
@@ -1865,77 +1886,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 48.26 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4da11919-df5a-42ad-90b9-b8111366f0e8")
-		(property "Reference" "C1"
-			(at 52.07 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 52.07 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.2252 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 48.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81b14dd8-7aa7-4e08-a9ce-6976f044d6a2")
-		)
-		(pin "2"
-			(uuid "b9a91dde-1844-47f4-975c-fb76671aff5f")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1951,7 +1902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "627e2e80-89f2-4090-94ae-832febf8c9a8")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 102.87 63.4999 0)
 			(effects
 				(font
@@ -1969,7 +1920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC2012X94N"
 			(at 100.0252 68.58 0)
 			(effects
 				(font
@@ -1978,7 +1929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/08055C104K4Z2A/1545084"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -1996,7 +1947,52 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "08055C104K4Z2A"
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 99.06 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -2014,7 +2010,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2030,7 +2026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71644ddb-0f4d-47c7-bdb4-b7691ba900ba")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 254 64.7699 0)
 			(effects
 				(font
@@ -2048,7 +2044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC3216X190N"
 			(at 251.1552 69.85 0)
 			(effects
 				(font
@@ -2057,7 +2053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/LMJ316BB7226KLHT/5214839"
 			(at 250.19 66.04 0)
 			(effects
 				(font
@@ -2075,7 +2071,52 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "LMJ316BB7226KLHT"
+			(at 250.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 250.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 250.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 250.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 250.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
 			(at 250.19 66.04 0)
 			(effects
 				(font
@@ -2093,7 +2134,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2109,7 +2150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "774a3fa8-2648-4a83-adfb-77205aa46ab3")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 64.77 72.3899 0)
 			(effects
 				(font
@@ -2127,7 +2168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC3216X190N"
 			(at 61.9252 77.47 0)
 			(effects
 				(font
@@ -2136,7 +2177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA5L1X7R1H106K160AE/9744778"
 			(at 60.96 73.66 0)
 			(effects
 				(font
@@ -2146,6 +2187,60 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CGA5L1X7R1H106K160AE"
 			(at 60.96 73.66 0)
 			(effects
 				(font
@@ -2163,7 +2258,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2179,7 +2274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adf1c69d-38d5-4dd5-aa8b-1e78a82c6eb3")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 198.12 43.18 90)
 			(effects
 				(font
@@ -2195,7 +2290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CAPC1005X55N"
 			(at 201.93 49.8348 0)
 			(effects
 				(font
@@ -2204,7 +2299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/LMK105B7104KVHF/4811135"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -2222,7 +2317,52 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "LMK105B7104KVHF"
+			(at 198.12 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 198.12 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 198.12 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 198.12 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 198.12 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
 			(at 198.12 50.8 90)
 			(effects
 				(font
@@ -2240,7 +2380,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2441,52 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "LMR43620MSC5-Q1RPE"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -2372,7 +2557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:WE-MAPI_2510"
 			(at 67.31 50.8 0)
 			(effects
 				(font
@@ -2381,7 +2566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744383230033/4386863"
 			(at 67.31 50.8 0)
 			(effects
 				(font
@@ -2392,6 +2577,60 @@
 		)
 		(property "Description" "Inductor"
 			(at 67.31 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 67.31 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "744383230033"
+			(at 67.31 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,6 +2715,51 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 218.44 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 218.44 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 218.44 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 218.44 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 218.44 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "02a4f1cc-c27f-4f13-925e-2f284ec4e22a")
 		)
@@ -2519,7 +2803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:RES_ERJ3EKF10R0V"
 			(at 74.676 57.404 90)
 			(effects
 				(font
@@ -2528,7 +2812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF10R0V/196065"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -2538,6 +2822,60 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 73.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "ERJ-3EKF10R0V"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -2563,7 +2901,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 40.64 50.8 180)
+		(at 52.07 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2572,7 +2910,7 @@
 		(fields_autoplaced yes)
 		(uuid "daa2d33e-81a8-4b04-b170-9c311f5751ba")
 		(property "Reference" "D3"
-			(at 40.9575 44.45 0)
+			(at 52.3875 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,15 +2918,15 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 40.9575 46.99 0)
+			(at 52.3875 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 40.64 50.8 0)
+		(property "Footprint" "footprints:CR_SMP_DO-220AA_VIS"
+			(at 52.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,8 +2934,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 40.64 50.8 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/SS2PH5HM3-84A/5427035"
+			(at 52.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2944,61 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 40.64 50.8 0)
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 52.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "SS2PH5HM3-84A"
+			(at 52.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +3031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd53c897-3432-463d-bbe8-efbc59dbbf4c")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 115.57 71.1199 0)
 			(effects
 				(font
@@ -2657,7 +3049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.7252 76.2 0)
 			(effects
 				(font
@@ -2666,7 +3058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/UMK212B7105KGHT/4811080"
 			(at 111.76 72.39 0)
 			(effects
 				(font
@@ -2684,7 +3076,52 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "UMK212B7105KGHT"
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
 			(at 111.76 72.39 0)
 			(effects
 				(font
@@ -2702,7 +3139,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)

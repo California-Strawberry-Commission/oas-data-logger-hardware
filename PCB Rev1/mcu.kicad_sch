@@ -585,25 +585,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 38.862 0)
+			(property "Reference" "U5"
+				(at 0 43.18 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "ESP32-S3-MINI-1U-N8"
-				(at -10.16 -43.18 0)
+				(at 0 40.64 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ESP32-S3-MINI-1U-N8:XCVR_ESP32-S3-MINI-1U-N8"
+			(property "Footprint" "footprints:ESP32-S3-MINI-1U_EXP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -751,10 +749,19 @@
 					(hide yes)
 				)
 			)
+			(property "Part #" "ESP32-S3-MINI-1U-N8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "ESP32-S3-MINI-1U-N8_0_0"
 				(rectangle
-					(start -10.16 -40.64)
-					(end 10.16 38.1)
+					(start -10.16 38.1)
+					(end 10.16 -40.64)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2078,126 +2085,165 @@
 					)
 				)
 			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
+			(symbol "ESP32-S3-MINI-1U-N8_1_0"
 				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "61"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -33.02 180)
+					(length 5.08)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2326,16 +2372,22 @@
 		(uuid "137c139f-b213-473c-ad03-26dec5b5fcc6")
 	)
 	(junction
-		(at 102.87 58.42)
+		(at 172.72 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3003c579-dcd8-477a-8c52-3870e1f196d7")
+		(uuid "45bae8b5-0308-4f41-b8ef-f6e6bee08e3c")
 	)
 	(junction
 		(at 128.27 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d49be73-e0d4-451b-a3c7-3b97184e7ac2")
+	)
+	(junction
+		(at 102.87 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "616c9deb-b77e-4e10-82e4-1aa909a6e513")
 	)
 	(junction
 		(at 199.39 83.82)
@@ -2354,6 +2406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c44b2c3b-b773-4861-9f16-a2f4dfb4937e")
+	)
+	(junction
+		(at 212.09 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7666f4b-a0dc-4767-b1d0-1f85cc3e08bc")
 	)
 	(junction
 		(at 81.28 81.28)
@@ -2378,10 +2436,6 @@
 		(uuid "0f4acb89-e5b5-4411-8d08-eb64170a2e93")
 	)
 	(no_connect
-		(at 129.54 93.98)
-		(uuid "30e5c9b1-083b-4a4f-9cf9-3f9f1016f6ba")
-	)
-	(no_connect
 		(at 129.54 96.52)
 		(uuid "32ef99f1-c233-4855-8414-8a777d732b09")
 	)
@@ -2398,10 +2452,6 @@
 		(uuid "405ec751-9c2e-4142-84c7-7fc5d7823969")
 	)
 	(no_connect
-		(at 165.1 106.68)
-		(uuid "41e79fdd-a1db-446a-8b2e-55831170d89e")
-	)
-	(no_connect
 		(at 129.54 129.54)
 		(uuid "4e9a6a60-fc0d-4d67-972c-e9a601e40ed2")
 	)
@@ -2412,6 +2462,10 @@
 	(no_connect
 		(at 129.54 106.68)
 		(uuid "56c4dec2-832d-45db-8701-769ec1439def")
+	)
+	(no_connect
+		(at 129.54 111.76)
+		(uuid "573eec73-2325-4702-bd0e-2a61ac14698f")
 	)
 	(no_connect
 		(at 165.1 111.76)
@@ -2434,12 +2488,12 @@
 		(uuid "77b49f2a-f3c3-48bc-a1ae-5f62d5fde232")
 	)
 	(no_connect
-		(at 129.54 104.14)
-		(uuid "9e0b745a-1d2f-493b-8ef9-7988a3cb5a38")
+		(at 129.54 93.98)
+		(uuid "9db13d01-143c-4f70-9345-c9dfca5c9fa4")
 	)
 	(no_connect
-		(at 129.54 83.82)
-		(uuid "a403d41b-e0c1-4128-8a0c-254480cac5d8")
+		(at 129.54 104.14)
+		(uuid "9e0b745a-1d2f-493b-8ef9-7988a3cb5a38")
 	)
 	(no_connect
 		(at 165.1 78.74)
@@ -2454,20 +2508,8 @@
 		(uuid "b3b5b0ec-17fc-4580-8925-a015543c54ff")
 	)
 	(no_connect
-		(at 165.1 104.14)
-		(uuid "bb43d367-44c6-41fc-8a16-65114f179ada")
-	)
-	(no_connect
 		(at 129.54 116.84)
 		(uuid "c06c4406-7b9b-4b30-8ddb-e07b78bff95c")
-	)
-	(no_connect
-		(at 165.1 109.22)
-		(uuid "f4efd95c-cfe8-4391-b6fa-83b3bd773e36")
-	)
-	(no_connect
-		(at 165.1 101.6)
-		(uuid "f768df90-1d42-4517-aa79-b47bc4dc604d")
 	)
 	(wire
 		(pts
@@ -2551,13 +2593,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 106.68) (xy 165.1 106.68)
+			(xy 162.56 106.68) (xy 171.45 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20cabdd0-cc6a-43c4-b03d-d83491bc1daa")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c6885d-86e6-49ab-ba6c-a785725b3e13")
 	)
 	(wire
 		(pts
@@ -2591,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 109.22) (xy 165.1 109.22)
+			(xy 162.56 109.22) (xy 171.45 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2631,17 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 101.6) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fab302f-8d11-475d-a6dc-e3db61743a37")
-	)
-	(wire
-		(pts
-			(xy 162.56 104.14) (xy 165.1 104.14)
+			(xy 162.56 104.14) (xy 171.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2661,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 58.42) (xy 97.79 58.42)
+			(xy 97.79 58.42) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2711,16 +2753,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 93.98) (xy 132.08 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e083d4-d567-4e22-bcec-e7d382720361")
-	)
-	(wire
-		(pts
 			(xy 162.56 99.06) (xy 171.45 99.06)
 		)
 		(stroke
@@ -2738,6 +2770,16 @@
 			(type default)
 		)
 		(uuid "56aa41b1-a725-4441-9025-4f81fb92bca8")
+	)
+	(wire
+		(pts
+			(xy 102.87 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597bbe2f-dd83-4071-90a3-358d26cc8510")
 	)
 	(wire
 		(pts
@@ -2771,6 +2813,26 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 66.04) (xy 227.33 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66257a76-e443-4782-880b-a74ef1c67b73")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670fe681-ff32-489c-9474-eb7ac0a97e8e")
+	)
+	(wire
+		(pts
 			(xy 186.69 66.04) (xy 199.39 66.04)
 		)
 		(stroke
@@ -2778,16 +2840,6 @@
 			(type default)
 		)
 		(uuid "726b7246-69ce-4c61-8451-b5af113aa902")
-	)
-	(wire
-		(pts
-			(xy 107.95 58.42) (xy 102.87 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa5b310-18c6-41f2-9fb0-3e3442a49c71")
 	)
 	(wire
 		(pts
@@ -2861,16 +2913,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 132.08 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1545865-cd89-4c0d-ac95-f36d50573aa1")
-	)
-	(wire
-		(pts
 			(xy 162.56 111.76) (xy 165.1 111.76)
 		)
 		(stroke
@@ -2891,16 +2933,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 111.76) (xy 132.08 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6980152-22e1-4f57-b513-771288d9840d")
-	)
-	(wire
-		(pts
 			(xy 162.56 78.74) (xy 165.1 78.74)
 		)
 		(stroke
@@ -2908,16 +2940,6 @@
 			(type default)
 		)
 		(uuid "ab22394e-e7d7-429b-a4bb-e322a247d43b")
-	)
-	(wire
-		(pts
-			(xy 102.87 53.34) (xy 102.87 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af6deeab-64e0-43f7-b915-68e2998ee3e2")
 	)
 	(wire
 		(pts
@@ -2931,6 +2953,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68d9282-16fb-4f34-af48-bca83c803974")
+	)
+	(wire
+		(pts
 			(xy 93.98 81.28) (xy 107.95 81.28)
 		)
 		(stroke
@@ -2938,6 +2970,16 @@
 			(type default)
 		)
 		(uuid "b7205b1a-a84d-4d53-9746-5cbe06e7755a")
+	)
+	(wire
+		(pts
+			(xy 102.87 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75d1d91-670a-4c4f-a89e-fb88b14231d8")
 	)
 	(wire
 		(pts
@@ -2958,6 +3000,16 @@
 			(type default)
 		)
 		(uuid "b8ad6635-6fe7-45b8-8127-43cdfb2e0663")
+	)
+	(wire
+		(pts
+			(xy 172.72 54.61) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6c3f5e-dda0-4c73-a4fb-66ab5549e0c5")
 	)
 	(wire
 		(pts
@@ -3041,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 186.69 66.04)
+			(xy 162.56 66.04) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3061,6 +3113,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7eecfda-b4f0-4088-a424-8d9f8c11b0b4")
+	)
+	(wire
+		(pts
 			(xy 162.56 71.12) (xy 171.45 71.12)
 		)
 		(stroke
@@ -3068,6 +3130,16 @@
 			(type default)
 		)
 		(uuid "d9cd4e31-58d1-4079-a96b-896a642db4d8")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddafbd3d-480f-4d35-944d-2ae7808d4b42")
 	)
 	(wire
 		(pts
@@ -3151,6 +3223,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 58.42) (xy 102.87 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9fbd5d-abfe-499a-85b6-2a06b478945f")
+	)
+	(wire
+		(pts
 			(xy 107.95 67.31) (xy 107.95 76.2)
 		)
 		(stroke
@@ -3199,7 +3281,7 @@
 		)
 		(uuid "ffc2b7c3-1de1-4f89-bd30-0f03f555cdaa")
 	)
-	(hierarchical_label "D-"
+	(hierarchical_label "IO19"
 		(shape input)
 		(at 121.92 124.46 180)
 		(effects
@@ -3210,7 +3292,29 @@
 		)
 		(uuid "14150abe-2d1a-43da-b3fe-231be5c6928f")
 	)
-	(hierarchical_label "DAT1"
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 227.33 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f4eb4f5-ae58-4e15-ad25-104857da231d")
+	)
+	(hierarchical_label "IO41"
+		(shape input)
+		(at 171.45 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "266144a9-0731-46e3-883c-6067cbdec68c")
+	)
+	(hierarchical_label "IO37"
 		(shape input)
 		(at 171.45 91.44 0)
 		(effects
@@ -3220,6 +3324,17 @@
 			(justify left)
 		)
 		(uuid "2e78aa59-f7c5-4823-ba15-40589c4f1043")
+	)
+	(hierarchical_label "IO42"
+		(shape input)
+		(at 171.45 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49203b75-2d16-4dd6-8671-d19e49c55a09")
 	)
 	(hierarchical_label "RXD"
 		(shape input)
@@ -3232,7 +3347,7 @@
 		)
 		(uuid "4f40b235-f298-4928-8c92-8c2479f7566a")
 	)
-	(hierarchical_label "DAT0"
+	(hierarchical_label "IO36"
 		(shape input)
 		(at 171.45 88.9 0)
 		(effects
@@ -3243,7 +3358,7 @@
 		)
 		(uuid "5886b174-f105-449c-be17-60ae315d1ce1")
 	)
-	(hierarchical_label "D+"
+	(hierarchical_label "IO20"
 		(shape input)
 		(at 121.92 127 180)
 		(effects
@@ -3254,18 +3369,18 @@
 		)
 		(uuid "651232bc-b81d-4fd7-8b7a-881da2e619bb")
 	)
-	(hierarchical_label "EN"
+	(hierarchical_label "IO3"
 		(shape input)
-		(at 121.92 111.76 180)
+		(at 121.92 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6e66eaaf-aa3d-4482-82e3-df4d1e4d3f3b")
+		(uuid "7c544d38-06af-4f0b-aace-02e33536edfc")
 	)
-	(hierarchical_label "CLK"
+	(hierarchical_label "IO34"
 		(shape input)
 		(at 171.45 83.82 0)
 		(effects
@@ -3276,7 +3391,7 @@
 		)
 		(uuid "88eb66ca-2269-496b-9dbd-772b53d05cc4")
 	)
-	(hierarchical_label "SW_DET"
+	(hierarchical_label "IO40"
 		(shape input)
 		(at 171.45 99.06 0)
 		(effects
@@ -3287,7 +3402,7 @@
 		)
 		(uuid "98bbb290-f89a-4341-b969-e4b5d8e652b2")
 	)
-	(hierarchical_label "EXTINT"
+	(hierarchical_label "IO5"
 		(shape input)
 		(at 121.92 88.9 180)
 		(effects
@@ -3298,7 +3413,18 @@
 		)
 		(uuid "ac1278e4-161d-4fb0-bbf6-a48ccaec43cf")
 	)
-	(hierarchical_label "DAT2"
+	(hierarchical_label "IO46"
+		(shape input)
+		(at 171.45 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c302b356-79f1-4ac1-a88a-d7cc38d17f12")
+	)
+	(hierarchical_label "IO38"
 		(shape input)
 		(at 171.45 93.98 0)
 		(effects
@@ -3309,7 +3435,7 @@
 		)
 		(uuid "e0ac32c2-d0a1-4a7f-b12d-d3d737c63b23")
 	)
-	(hierarchical_label "CMD"
+	(hierarchical_label "IO35"
 		(shape input)
 		(at 171.45 86.36 0)
 		(effects
@@ -3320,7 +3446,7 @@
 		)
 		(uuid "e3c6aa65-e005-4320-9964-b78cdef31749")
 	)
-	(hierarchical_label "1SEC"
+	(hierarchical_label "IO6"
 		(shape input)
 		(at 121.92 91.44 180)
 		(effects
@@ -3331,7 +3457,7 @@
 		)
 		(uuid "e56381f2-7f0a-41cb-b5c8-9ba1ed553359")
 	)
-	(hierarchical_label "DAT3"
+	(hierarchical_label "IO39"
 		(shape input)
 		(at 171.45 96.52 0)
 		(effects
@@ -3353,75 +3479,16 @@
 		)
 		(uuid "ec5f8134-b444-48e5-8c00-87f60622c234")
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 212.09 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06fd5052-458d-43a1-a073-8e24ffc80020")
-		(property "Reference" "C22"
-			(at 215.9 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "IO45"
+		(shape input)
+		(at 171.45 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "10uF"
-			(at 215.9 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.0552 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 212.09 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f643e437-2b9a-447f-9b3b-5e145a07ddb3")
-		)
-		(pin "2"
-			(uuid "d6711d64-fbbd-4d34-b107-34952fd5d8ab")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f5d29e0c-395f-4fb7-b09e-56064766cece")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -3449,7 +3516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_TL1105TF160Q"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -3458,7 +3525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/e-switch/TL1105SPF100Q/378968"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -3468,6 +3535,60 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL1105SPF100Q"
 			(at 88.9 71.12 0)
 			(effects
 				(font
@@ -3519,7 +3640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:TP_245X165"
 			(at 124.46 50.8 0)
 			(effects
 				(font
@@ -3528,7 +3649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/rct-0c/2366050"
 			(at 124.46 50.8 0)
 			(effects
 				(font
@@ -3538,6 +3659,60 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "rct-0c"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -3559,17 +3734,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 199.39 76.2 0)
+		(lib_id "Device:R_US")
+		(at 107.95 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3aca3629-0811-4c76-8a91-2a2f400c074d")
-		(property "Reference" "C21"
-			(at 203.2 74.9299 0)
+		(uuid "22f2a765-6102-436a-9bc5-3d8d1e654d8a")
+		(property "Reference" "R14"
+			(at 110.49 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,8 +3752,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
-			(at 203.2 77.4699 0)
+		(property "Value" "10k"
+			(at 110.49 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,8 +3761,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.3552 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 108.966 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,8 +3770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 199.39 76.2 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1002F/9844954"
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,91 +3779,79 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 199.39 76.2 0)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "AVAILABILITY" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RK73H1JTTD1002F"
+			(at 107.95 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6c8f19a-a259-4404-b450-81c422e6b524")
 		)
 		(pin "2"
-			(uuid "e78b7fca-c7af-43ca-a218-afc97cf43713")
-		)
-		(pin "1"
-			(uuid "4b96e286-9db3-4341-bc88-9041cdfa712a")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 102.87 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54b904c5-1a19-4ba4-b71d-f266aaaf391d")
-		(property "Reference" "#PWR019"
-			(at 102.87 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 102.87 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be4f07c8-70e6-4ae3-8eff-ca224acdeaea")
+			(uuid "a7224d1a-e932-4d1d-815a-b9c696279d38")
 		)
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "#PWR019")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3704,7 +3867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "579715ef-9f8c-4dbd-88ad-a64076d871a4")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR015"
 			(at 199.39 92.71 0)
 			(effects
 				(font
@@ -3754,7 +3917,7 @@
 		(instances
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "#PWR021")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3762,16 +3925,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 186.69 76.2 0)
+		(at 199.39 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6315d8bb-75ba-44cf-bad3-64fac4edbcb9")
+		(uuid "5fb6519c-dfe2-4ade-bcd6-08b170bbc9ce")
 		(property "Reference" "C20"
-			(at 190.5 74.9299 0)
+			(at 203.2 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,8 +3942,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 190.5 77.4699 0)
+		(property "Value" "1uF"
+			(at 203.2 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,8 +3951,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 187.6552 80.01 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 200.3552 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,8 +3960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 76.2 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/LMK107BJ105KAHT/4157762"
+			(at 199.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +3970,61 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 186.69 76.2 0)
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LMK107BJ105KAHT"
+			(at 199.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,13 +4033,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "317b4a67-1df9-4fa6-8b53-06b2b518a4a7")
+			(uuid "05bb31bd-609e-45a2-a6f1-793917a7e7d5")
 		)
 		(pin "2"
-			(uuid "36bd24f1-b8ba-4a0e-a6ca-f8720537c278")
+			(uuid "f1d6cef0-0613-4e44-a20c-c0f69e056455")
 		)
 		(instances
-			(project ""
+			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
 					(reference "C20")
 					(unit 1)
@@ -3856,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SW_TL1105TF160Q"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -3865,7 +4082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/e-switch/TL1105TF160Q/1133186"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -3875,6 +4092,60 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TL1105TF160Q"
 			(at 88.9 81.28 0)
 			(effects
 				(font
@@ -3908,7 +4179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87fe7107-9dc8-45a2-9bc6-47966fa1b46e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR014"
 			(at 162.56 151.13 0)
 			(effects
 				(font
@@ -3958,77 +4229,7 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 107.95 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92ea2235-dde6-403a-a40a-dbdf7685b848")
-		(property "Reference" "R14"
-			(at 110.49 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 110.49 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.966 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 107.95 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7436aefb-ef5d-4069-ae24-2fe51b952457")
-		)
-		(pin "2"
-			(uuid "0b677206-0278-463e-bd42-09557bec5113")
-		)
-		(instances
-			(project "Data Logger Rev1"
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "R14")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4062,7 +4263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:TP_245X165"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -4071,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/rct-0c/2366050"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -4081,6 +4282,60 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "rct-0c"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -4111,7 +4366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a72c75f4-fc28-48cb-8c4d-ebb01ea94eca")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 81.28 92.71 0)
 			(effects
 				(font
@@ -4161,7 +4416,255 @@
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "#PWR018")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 186.69 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0f926b6-5770-4354-aad3-fb197b052b88")
+		(property "Reference" "C19"
+			(at 190.5 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 190.5 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 187.6552 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACAUTO/8572409"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "C0603C104K8RACAUTO"
+			(at 186.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4eeee141-c68b-4e9c-8a29-6ba60f5d107a")
+		)
+		(pin "1"
+			(uuid "e339cc44-dac4-4a2c-99a4-63ce734b940a")
+		)
+		(instances
+			(project "Data Logger Rev1"
+				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 212.09 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2da17ac-7552-45af-a55e-81434bc58dc2")
+		(property "Reference" "C21"
+			(at 215.9 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 215.9 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 213.0552 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR71A106KE22K/4903979"
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "GCM21BR71A106KE22K"
+			(at 212.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aabb2db1-c633-46b8-91dd-7456a91ef3f4")
+		)
+		(pin "2"
+			(uuid "a780dc41-71d6-43e7-aaf8-3324ced5bbd9")
+		)
+		(instances
+			(project "Data Logger Rev1"
+				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4342,6 +4845,51 @@
 			)
 		)
 		(property "Part #" "ESP32-S3-MINI-1U-N8"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
 			(at 147.32 101.6 0)
 			(effects
 				(font
@@ -4569,6 +5117,33 @@
 		(pin "61_8"
 			(uuid "bef1ca06-6ba7-4077-8573-b5fd76aabfc4")
 		)
+		(pin "73"
+			(uuid "3870b3fb-780b-43a9-baad-d191320b7ec3")
+		)
+		(pin "66"
+			(uuid "7f933273-a2c2-416f-8b78-b4f8cd7c847b")
+		)
+		(pin "68"
+			(uuid "3827eea3-7647-4dca-ae3c-69127832132f")
+		)
+		(pin "69"
+			(uuid "3aa13ea7-f66e-40da-8261-d1ff80ff4905")
+		)
+		(pin "70"
+			(uuid "02051e21-58ff-4049-b466-b86e4b125260")
+		)
+		(pin "67"
+			(uuid "1229a395-6ec4-4f0c-a872-c390c4a2e369")
+		)
+		(pin "61"
+			(uuid "f4983f83-8b0b-4a85-98ee-ec02547a04d3")
+		)
+		(pin "72"
+			(uuid "2086c2a0-6cf1-434e-9399-b6a803874851")
+		)
+		(pin "71"
+			(uuid "1c767a2b-7e00-43ce-829e-d98f35f1509b")
+		)
 		(instances
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
@@ -4587,7 +5162,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ecc3fac5-1249-4a30-8d3f-a4f2bb2fb282")
+		(uuid "f4810ef7-3cb7-4aaf-9609-8dc62717e81a")
 		(property "Reference" "R13"
 			(at 100.33 62.2299 0)
 			(effects
@@ -4606,7 +5181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 98.806 63.754 90)
 			(effects
 				(font
@@ -4615,7 +5190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H1JTTD1002F/9844954"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -4633,11 +5208,65 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Color " ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RK73H1JTTD1002F"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "0312c298-6787-4c27-b0cd-dbef01226591")
+			(uuid "95bc75b2-cca3-4dbf-96c7-59fa4e902b16")
 		)
 		(pin "2"
-			(uuid "94a45852-e7e1-44e0-b4b6-1c9debffccd6")
+			(uuid "ccc268f9-0290-4380-ba32-a68f0c30b56e")
 		)
 		(instances
 			(project "Data Logger Rev1"
