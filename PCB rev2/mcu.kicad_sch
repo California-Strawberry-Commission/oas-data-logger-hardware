@@ -428,412 +428,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RGB_LED:XZCMECBDDGK53W"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED1"
-				(at 15.24 12.7 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "XZCMECBDDGK53W"
-				(at 15.24 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "footprints:SON4_XZCME_SLD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/sunled/XZCMECBDDGK53W/13559340"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "XZCMECBDDGK53W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SON4_XZCME_SLD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "XZCMECBDDGK53W_0_1"
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 16.51 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 5.08) (xy 12.7 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 5.08) (xy 16.51 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 12.7 0)
-					(radius 0.127)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -5.08) (xy 16.51 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 6.35) (xy 16.51 3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 6.35) (xy 19.05 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 1.27) (xy 16.51 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 1.27) (xy 19.05 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 -3.81) (xy 16.51 -6.35)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 -3.81) (xy 19.05 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 6.35) (xy 19.05 3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 5.08) (xy 16.51 3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 1.27) (xy 19.05 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 0) (xy 16.51 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -3.81) (xy 19.05 -6.35)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 19.05 -5.08) (xy 16.51 -6.35)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 5.08) (xy 19.05 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 0) (xy 19.05 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -5.08) (xy 19.05 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 30.48 5.08 180)
-					(length 7.62)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 30.48 0 180)
-					(length 7.62)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 30.48 -5.08 180)
-					(length 7.62)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "XZCMECBDDGK53W_1_1"
-				(rectangle
-					(start 6.35 7.62)
-					(end 22.86 -7.62)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch_but:B3F-1000"
 			(pin_names
 				(offset 1.016)
@@ -3348,6 +2942,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 121.92) (xy 132.08 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431eeaec-586d-4fa6-bbbe-146d4155c3e6")
+	)
+	(wire
+		(pts
 			(xy 97.79 58.42) (xy 102.87 58.42)
 		)
 		(stroke
@@ -3548,16 +3152,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 121.92) (xy 132.08 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67fe4a65-036f-421c-b2fb-99b2162e6c7f")
-	)
-	(wire
-		(pts
 			(xy 151.13 54.61) (xy 172.72 54.61)
 		)
 		(stroke
@@ -3565,6 +3159,16 @@
 			(type default)
 		)
 		(uuid "6a6984b8-1ffb-4759-995d-1be70fcca367")
+	)
+	(wire
+		(pts
+			(xy 121.92 116.84) (xy 132.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6e30c1-b3ef-4015-9876-961bac5649a0")
 	)
 	(wire
 		(pts
@@ -3585,16 +3189,6 @@
 			(type default)
 		)
 		(uuid "740179d8-fd1a-4714-93f9-374cf2a82a04")
-	)
-	(wire
-		(pts
-			(xy 105.41 119.38) (xy 132.08 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a334d61-b928-48e9-849c-f5fe90cce190")
 	)
 	(wire
 		(pts
@@ -3648,6 +3242,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 119.38) (xy 132.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857befcb-e907-411f-a1b8-6c2ac2be1dab")
+	)
+	(wire
+		(pts
 			(xy 199.39 83.82) (xy 199.39 86.36)
 		)
 		(stroke
@@ -3675,16 +3279,6 @@
 			(type default)
 		)
 		(uuid "95aa9d31-c63d-4b8e-9f57-1eda00115120")
-	)
-	(wire
-		(pts
-			(xy 71.12 114.3) (xy 71.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98d373c8-2f6f-4951-8812-756b4a379217")
 	)
 	(wire
 		(pts
@@ -3788,16 +3382,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 116.84) (xy 132.08 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4fb2564-91fb-4878-8c02-f7cf02775691")
-	)
-	(wire
-		(pts
 			(xy 121.92 81.28) (xy 132.08 81.28)
 		)
 		(stroke
@@ -3858,16 +3442,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 119.38) (xy 71.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf8fc53a-f084-47a7-901d-d0c9b267ccb3")
-	)
-	(wire
-		(pts
 			(xy 121.92 129.54) (xy 132.08 129.54)
 		)
 		(stroke
@@ -3905,16 +3479,6 @@
 			(type default)
 		)
 		(uuid "cb5687a3-1590-462a-af45-ced7a25825ee")
-	)
-	(wire
-		(pts
-			(xy 105.41 124.46) (xy 105.41 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc3275c1-3b79-4637-921f-9a4e665d86f4")
 	)
 	(wire
 		(pts
@@ -4078,16 +3642,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 116.84) (xy 105.41 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "efceb8e2-df19-4cf1-8fe4-27ef2633a457")
-	)
-	(wire
-		(pts
 			(xy 57.15 92.71) (xy 62.23 92.71)
 		)
 		(stroke
@@ -4185,6 +3739,17 @@
 			(type default)
 		)
 		(uuid "ffc2b7c3-1de1-4f89-bd30-0f03f555cdaa")
+	)
+	(hierarchical_label "IO16"
+		(shape input)
+		(at 121.92 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03c1546a-b795-42e3-b757-e341d968dfa6")
 	)
 	(hierarchical_label "IO19"
 		(shape input)
@@ -4406,6 +3971,17 @@
 		)
 		(uuid "9d72374b-a826-49fd-a950-26c3b70cc8eb")
 	)
+	(hierarchical_label "IO17"
+		(shape input)
+		(at 121.92 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f15c84f-3496-4af6-bbf7-12043b15eca3")
+	)
 	(hierarchical_label "IO5"
 		(shape input)
 		(at 121.92 88.9 180)
@@ -4460,6 +4036,17 @@
 			(justify left)
 		)
 		(uuid "e0ac32c2-d0a1-4a7f-b12d-d3d737c63b23")
+	)
+	(hierarchical_label "IO18"
+		(shape input)
+		(at 121.92 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e28dd4ba-e334-4af3-ac85-23e625f974d9")
 	)
 	(hierarchical_label "IO35"
 		(shape input)
@@ -5086,82 +4673,6 @@
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
 					(reference "RESET1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RGB_LED:XZCMECBDDGK53W")
-		(at 74.93 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "97116f2f-2d54-4940-a6b9-a250930bd089")
-		(property "Reference" "LED1"
-			(at 90.17 132.08 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "XZCMECBDDGK53W"
-			(at 90.17 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SON4_XZCME_SLD"
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/sunled/XZCMECBDDGK53W/13559340"
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "196b0938-c2dc-4a44-8160-a4a1e2588b9e")
-		)
-		(pin "2"
-			(uuid "d2058074-e1d0-4c51-a374-9d0c53a45726")
-		)
-		(pin "3"
-			(uuid "f6998b19-fc89-4935-9f6b-b4913d525b86")
-		)
-		(pin "4"
-			(uuid "df998329-fc66-4e1b-8f05-9e3af4bfd055")
-		)
-		(instances
-			(project "PCB Rev2"
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -6231,72 +5742,6 @@
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 71.12 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec6f9c1c-dc5b-47a1-8093-ffbdeb45935f")
-		(property "Reference" "#PWR05"
-			(at 71.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 71.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 71.12 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4394fef-40ca-40f2-900e-17b91b9f45dc")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/c47445fe-62a9-4b15-9dc8-00b9613b3005"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
