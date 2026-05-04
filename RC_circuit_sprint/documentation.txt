@@ -1,0 +1,19 @@
+This circuit is a small scale RC low pass filter made using a R=10k and C=2.2uF. It cuts off any frequency higher than 7.2Hz
+
+The component selection was done by looking at Basic resistors and capacitors in JLPCB. The footprints for both components are 0402, a common small size SMD package, ensuring no extra costs for pcb assembly. 
+
+Resistor
+I chose a larger 1206 resistor that was in stock on JLPCB(BASIC COMPONENTS) section. This resistor is able to dissipate 250mW, allowing for higher power applications, and it has a 50V rating. This 10k resistor also has a +-1% tolerance, so it is really really precise. 
+
+Capacitor
+The 2.2uF capacitor I choose is also 1206, and a basic JLPCB component. It is 50V rated x7r(slightly better than x5r) and has a tolerance of +-10%, so it is also fairly accurate in terms of cheap capacitors. 
+
+PCB design
+I placed 1x mounting hole for a m3 screw and also 3 test points. Test points cost extra on JLPCB so my solution was having a drilled hole connected by copper to my inputs/outputs. This saves cost while still allowing for a oscilloscope hook connection. 
+I have 2 ground planes to minimize noise, with a plane on the top copper pour and one on the bottom. These are connected using stitching vias.
+
+Silkscreen
+I placed silkscreen labels: GND, Vin, Vout, 10k, and 2,2uF to label my components. 
+
+Simulation
+The circuit is simulated inside NGSPICE and works as a proper low pass. 
