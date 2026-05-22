@@ -461,179 +461,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA_Lib:RVT1H101M0810"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1232,18 +1059,6 @@
 		(uuid "074ec2a5-87f7-4eca-a45b-469f21be4025")
 	)
 	(junction
-		(at 87.63 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dbb68e8-f117-4770-90d3-9e6da5843964")
-	)
-	(junction
-		(at 60.96 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21455d73-fc8f-4aa1-b570-14e74fe4ea31")
-	)
-	(junction
 		(at 128.27 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1274,12 +1089,6 @@
 		(uuid "7d877b79-90cf-4477-b9f7-0ff47bee0ff8")
 	)
 	(junction
-		(at 73.66 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95649fb0-3cae-4d8c-8095-a4b4136a2f77")
-	)
-	(junction
 		(at 227.33 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1308,12 +1117,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de41e3bf-c056-4575-8b1f-bb5b8a8f5f3d")
-	)
-	(junction
-		(at 73.66 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e96779f7-5833-43bb-8390-bc74b3b63826")
 	)
 	(junction
 		(at 95.25 50.8)
@@ -1407,16 +1210,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 50.8) (xy 60.96 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33b650c0-4e63-425a-bd2f-ed3f410ad26b")
-	)
-	(wire
-		(pts
 			(xy 111.76 76.2) (xy 111.76 85.09)
 		)
 		(stroke
@@ -1447,16 +1240,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 50.8) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f293ef6-e473-4d3e-98ca-318a1270ad8a")
-	)
-	(wire
-		(pts
 			(xy 203.2 58.42) (xy 203.2 50.8)
 		)
 		(stroke
@@ -1467,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 50.8) (xy 87.63 50.8)
+			(xy 55.88 50.8) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1527,26 +1310,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 73.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c7d222-d45b-4588-a1f1-153d44daa8ac")
-	)
-	(wire
-		(pts
-			(xy 60.96 85.09) (xy 73.66 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae10efd-bf04-40eb-82ed-1442f37c9f93")
-	)
-	(wire
-		(pts
 			(xy 34.29 50.8) (xy 48.26 50.8)
 		)
 		(stroke
@@ -1597,26 +1360,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 77.47) (xy 60.96 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3a32c0-fa77-40b8-8a4b-0f1122e7efc9")
-	)
-	(wire
-		(pts
-			(xy 73.66 85.09) (xy 87.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f84342c-94d6-4bb0-b961-82ae31c733d6")
-	)
-	(wire
-		(pts
 			(xy 87.63 50.8) (xy 95.25 50.8)
 		)
 		(stroke
@@ -1624,16 +1367,6 @@
 			(type default)
 		)
 		(uuid "98b783a9-2892-460a-b196-10cfcd2c30df")
-	)
-	(wire
-		(pts
-			(xy 73.66 50.8) (xy 73.66 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d6172b-3f84-4379-a623-ec822a851c3a")
 	)
 	(wire
 		(pts
@@ -1694,26 +1427,6 @@
 			(type default)
 		)
 		(uuid "c5f62a75-93e9-447f-82ef-1f1eab9c4769")
-	)
-	(wire
-		(pts
-			(xy 60.96 50.8) (xy 63.5 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c77b16fe-1f19-4dab-a115-c94f3f1a108e")
-	)
-	(wire
-		(pts
-			(xy 71.12 50.8) (xy 73.66 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7da470b-bc0a-4d01-940c-9b54b945a8d9")
 	)
 	(wire
 		(pts
@@ -1787,16 +1500,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 77.47) (xy 73.66 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f29a3276-3dee-4c24-a57d-9fe945e36e5d")
-	)
-	(wire
-		(pts
 			(xy 95.25 85.09) (xy 105.41 85.09)
 		)
 		(stroke
@@ -1814,16 +1517,6 @@
 			(justify left bottom)
 		)
 		(uuid "92d50af2-ace4-40e3-9424-72330bfa13c0")
-	)
-	(label "PI_IN"
-		(at 60.96 57.15 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed8d589f-5023-4f10-9e78-b10e48305861")
 	)
 	(hierarchical_label "V_TRACTOR"
 		(shape input)
@@ -1846,129 +1539,6 @@
 			(justify left)
 		)
 		(uuid "f819198e-5fad-4f96-8bf5-2dcc8cc7f535")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 73.66 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13d7f841-1fdd-4df9-abaf-d44bb4e2c814")
-		(property "Reference" "C2"
-			(at 72.644 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 71.882 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CAPC2012X150N"
-			(at 74.6252 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA4J1X7R1H475K125AC/9742505"
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color " ""
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "CGA4J1X7R1H475K125AC"
-			(at 73.66 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a53f5bc-ac06-4e16-8333-e932a6347bfe")
-		)
-		(pin "2"
-			(uuid "028d79f8-c6b2-48e5-be7e-cd19f0f519bf")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2409,130 +1979,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 60.96 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "774a3fa8-2648-4a83-adfb-77205aa46ab3")
-		(property "Reference" "C1"
-			(at 64.77 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 64.77 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CAPC3216X190N"
-			(at 61.9252 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk-corporation/CGA5L1X7R1H106K160AE/9744778"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color " ""
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "CGA5L1X7R1H106K160AE"
-			(at 60.96 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a840c958-58a3-4496-a089-2e9347efa168")
-		)
-		(pin "1"
-			(uuid "e7a3c98f-48fa-41fe-9b25-8a9c19d6b34e")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA_Lib:RVT1H101M0810")
 		(at 87.63 64.77 270)
 		(unit 1)
@@ -2914,128 +2360,6 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 67.31 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb18c763-4656-4532-84f8-2a66f2129ba9")
-		(property "Reference" "L1"
-			(at 67.31 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330nH"
-			(at 67.31 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:WE-MAPI_2510"
-			(at 67.31 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744383230033/4386863"
-			(at 67.31 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 67.31 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 67.31 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color " ""
-			(at 67.31 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 67.31 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 67.31 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 67.31 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "744383230033"
-			(at 67.31 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2aa282f4-6da1-49a4-ad4c-45c8877b44b9")
-		)
-		(pin "1"
-			(uuid "5c8b0941-0b01-4c2c-8e58-38163004e471")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
 		(at 218.44 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3151,130 +2475,6 @@
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 73.66 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c72442ee-8520-46f6-a891-c2f1cd361938")
-		(property "Reference" "R1"
-			(at 76.2 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 76.2 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:RES_ERJ3EKF10R0V"
-			(at 74.676 57.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERJ-3EKF10R0V/196065"
-			(at 73.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 73.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 73.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color " ""
-			(at 73.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 73.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 73.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 73.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "ERJ-3EKF10R0V"
-			(at 73.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d2739ab-a895-4cdd-a9e6-02023a1d4e77")
-		)
-		(pin "1"
-			(uuid "f56c2380-f2c3-4637-9887-ea693cb6dd61")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "R1")
 					(unit 1)
 				)
 			)
