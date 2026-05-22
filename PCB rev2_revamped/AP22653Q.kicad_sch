@@ -322,6 +322,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA_Lib:470uF 25V Green high frequency"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "470uF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:CAP-TH_BD8.0-P3.50-D0.6-FD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/GR477M025F14RR0VL4FP0/5573.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitance:470uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Pin Spacing:3.5mm Diameter:8mm Height - Seated (Max):14mm Lifetime:3000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "GR477M025F14RR0VL4FP0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Chengx(承兴)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C5154"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "绿色 470uF ±20% 25V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "470uF 25V Green high frequency_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy -1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.27) (xy -2.032 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.2192 1.8542) (xy 0.8382 1.2954) (xy 0.8382 1.2954) (xy 0.5842 0.7112) (xy 0.5842 0.7112)
+						(xy 0.508 0.0762) (xy 0.508 0.0762) (xy 0.5588 -0.5334) (xy 0.5588 -0.5334) (xy 0.762 -1.1684)
+						(xy 0.762 -1.1684) (xy 1.1176 -1.7272)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -657,7 +864,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 109.22) (xy 186.69 114.3)
+			(xy 186.69 107.95) (xy 186.69 114.3)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +1084,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 92.71) (xy 186.69 101.6)
+			(xy 186.69 92.71) (xy 186.69 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1246,6 +1453,120 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA_Lib:470uF 25V Green high frequency")
+		(at 186.69 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3630967f-b0c2-401d-bf83-23876af7316b")
+		(property "Reference" "C25"
+			(at 190.5 103.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:CAP-TH_BD8.0-P3.50-D0.6-FD"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/GR477M025F14RR0VL4FP0/5573.html"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:470uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Pin Spacing:3.5mm Diameter:8mm Height - Seated (Max):14mm Lifetime:3000hrs@105°C Operating Temperature:-40°C~+105°C Operating Temperature:-40°C~+105°C"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "GR477M025F14RR0VL4FP0"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Chengx(承兴)"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5154"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "绿色 470uF ±20% 25V"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7b1e4fc-3272-402d-9fb1-acaa90f83378")
+		)
+		(pin "1"
+			(uuid "299d67fa-4860-46b4-af6e-0d75b0da74b7")
+		)
+		(instances
+			(project ""
+				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 167.64 85.09 0)
 		(unit 1)
@@ -1376,130 +1697,6 @@
 			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 186.69 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f448a7b1-883d-4a13-82fb-f7422ea1ae13")
-		(property "Reference" "C16"
-			(at 190.5 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 190.5 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 187.6552 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR71A106KE22K/4903979"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color " ""
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "GCM21BR71A106KE22K"
-			(at 186.69 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77c2ad87-6ed2-4886-a955-c07151306479")
-		)
-		(pin "2"
-			(uuid "5248daeb-b196-4934-a82b-ed84ed392ac4")
-		)
-		(instances
-			(project "PCB Rev2"
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/905a8709-dadb-438d-a64a-98151fb9a03c"
-					(reference "C16")
 					(unit 1)
 				)
 			)
