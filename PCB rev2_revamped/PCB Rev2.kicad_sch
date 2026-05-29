@@ -383,255 +383,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -3594,10 +3345,22 @@
 		(uuid "668296d4-660c-4eec-9f22-4449a52f3d39")
 	)
 	(junction
+		(at 107.95 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "696758b9-5194-41fd-84c9-b982e5e59dd5")
+	)
+	(junction
 		(at 7.62 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b7ffd28-9b64-4d69-8a26-b7027b90e2bd")
+	)
+	(junction
+		(at 107.95 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "727497d9-b988-45f5-b14f-5c3f993c16ff")
 	)
 	(junction
 		(at 81.28 72.39)
@@ -3610,12 +3373,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "893a4208-b9fd-4d18-8085-8653e973ab07")
-	)
-	(junction
-		(at 158.75 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b5b438b-c13e-4b7b-aa7d-b0168021d011")
 	)
 	(junction
 		(at 203.2 72.39)
@@ -3642,6 +3399,12 @@
 		(uuid "9f8c3fe5-10da-476e-ab6c-9cebad87a2c9")
 	)
 	(junction
+		(at 91.44 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3ef3b30-51af-47b2-8209-7d999819ef74")
+	)
+	(junction
 		(at 5.08 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3660,10 +3423,10 @@
 		(uuid "bfa83b17-7967-45b3-b1ae-b869fa0669a4")
 	)
 	(junction
-		(at 161.29 105.41)
+		(at 95.25 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d63e2f79-63ad-403e-b3bf-58c2ed43756a")
+		(uuid "ee083627-f9bf-4868-a6e1-933690a71275")
 	)
 	(no_connect
 		(at 207.01 96.52)
@@ -3696,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "03d38220-07bc-44d4-91d5-5f7bee99c628")
+	)
+	(wire
+		(pts
+			(xy 107.95 105.41) (xy 158.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052f66a0-8547-4221-8fe1-39fe77ca7a40")
 	)
 	(wire
 		(pts
@@ -3847,16 +3620,6 @@
 		)
 		(uuid "1a3b62e2-7622-4307-a37c-b70aa17ba4f6")
 	)
-	(wire
-		(pts
-			(xy 161.29 147.32) (xy 166.37 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1bf9d6-03d0-445f-8927-7a4b980a3ac7")
-	)
 	(polyline
 		(pts
 			(xy 269.24 173.99) (xy 269.24 175.26)
@@ -3866,6 +3629,16 @@
 			(type default)
 		)
 		(uuid "1b4aec66-d02c-46c4-bc67-011087dc85c1")
+	)
+	(wire
+		(pts
+			(xy 91.44 165.1) (xy 91.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca11229-96f5-4c51-b4d8-5dedfc752fac")
 	)
 	(polyline
 		(pts
@@ -3886,6 +3659,16 @@
 			(type default)
 		)
 		(uuid "1de67ab2-4763-4d76-8702-2435a367331f")
+	)
+	(wire
+		(pts
+			(xy 91.44 105.41) (xy 107.95 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec1e257-a602-4b83-ada7-64b331a3b834")
 	)
 	(polyline
 		(pts
@@ -3919,13 +3702,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 146.05 143.51)
+			(xy 95.25 175.26) (xy 113.03 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "299e08f7-81b5-4292-b3ea-1c8ebf232360")
+		(uuid "276870bd-2bd0-4da1-8c7e-6c849c55c36e")
 	)
 	(wire
 		(pts
@@ -4217,6 +4000,16 @@
 		)
 		(uuid "575aeada-16a1-4068-a20b-a2c17222a7e0")
 	)
+	(wire
+		(pts
+			(xy 107.95 110.49) (xy 107.95 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591d7d44-a92a-49b5-9392-fd7ad340041a")
+	)
 	(polyline
 		(pts
 			(xy 257.81 179.07) (xy 262.89 179.07)
@@ -4246,16 +4039,6 @@
 			(type default)
 		)
 		(uuid "5ec1af75-a41b-4ac8-a434-0557582527b7")
-	)
-	(wire
-		(pts
-			(xy 158.75 105.41) (xy 161.29 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7449f5-8f00-41be-be5f-7930762146e0")
 	)
 	(wire
 		(pts
@@ -4657,16 +4440,6 @@
 		)
 		(uuid "98e0c9a6-9774-433c-adc6-a914548b20ec")
 	)
-	(wire
-		(pts
-			(xy 166.37 147.32) (xy 166.37 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c2cf1be-7b26-40e2-97e4-e1602c1b8cc1")
-	)
 	(polyline
 		(pts
 			(xy 267.97 176.53) (xy 269.24 176.53)
@@ -4727,16 +4500,6 @@
 		)
 		(uuid "a85f767f-a0b5-410d-8510-c498bc32e877")
 	)
-	(wire
-		(pts
-			(xy 161.29 143.51) (xy 161.29 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d2a7eb-daa6-46b2-b824-f2111df9d1e4")
-	)
 	(polyline
 		(pts
 			(xy 267.97 175.26) (xy 267.97 176.53)
@@ -4749,7 +4512,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 175.26) (xy 113.03 175.26)
+			(xy 95.25 110.49) (xy 107.95 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed33706-2d44-43a8-95ab-ac3e63a67d1e")
+	)
+	(wire
+		(pts
+			(xy 90.17 175.26) (xy 95.25 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4796,6 +4569,16 @@
 			(type default)
 		)
 		(uuid "b5c6ba4c-89a4-4491-95f6-5e73b50bb137")
+	)
+	(wire
+		(pts
+			(xy 95.25 167.64) (xy 95.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0a909f-7829-4fdf-93bd-a6c4e2a3dc42")
 	)
 	(wire
 		(pts
@@ -5069,7 +4852,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 118.11) (xy 107.95 105.41)
+			(xy 91.44 172.72) (xy 100.33 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a50da4-a40c-4c9d-b497-ac86aa8bb448")
+	)
+	(wire
+		(pts
+			(xy 107.95 118.11) (xy 107.95 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5199,16 +4992,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 166.37 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef1d2e4f-bf67-477f-9d9f-b456ac7e7a70")
-	)
-	(wire
-		(pts
 			(xy 123.19 72.39) (xy 123.19 53.34)
 		)
 		(stroke
@@ -5269,23 +5052,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 172.72) (xy 100.33 172.72)
+			(xy 90.17 172.72) (xy 91.44 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f505afcb-7473-4adc-a227-053a27a2089c")
-	)
-	(wire
-		(pts
-			(xy 146.05 147.32) (xy 153.67 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6133d16-0686-41b5-8d94-e006eb63c785")
 	)
 	(polyline
 		(pts
@@ -5316,16 +5089,6 @@
 			(type default)
 		)
 		(uuid "fac1ce78-53fb-4922-b526-cdd082b1778b")
-	)
-	(wire
-		(pts
-			(xy 107.95 105.41) (xy 158.75 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdb7ada4-a41b-4992-98ce-142b2534da67")
 	)
 	(wire
 		(pts
@@ -5386,16 +5149,6 @@
 			(justify left bottom)
 		)
 		(uuid "091060c1-e0b1-4414-9cae-c53ba0d30155")
-	)
-	(label "3v3"
-		(at 157.48 175.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "18284589-169b-453a-bd7b-f58a2f3d6e54")
 	)
 	(label "EXTINT"
 		(at 71.12 151.13 0)
@@ -5477,6 +5230,16 @@
 		)
 		(uuid "40d4b423-be4b-4fff-9fbf-1badcf3bac41")
 	)
+	(label "sda"
+		(at 104.1707 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "417addaa-661e-47e0-b2c4-78d3e01f068f")
+	)
 	(label "EXTINT"
 		(at 207.01 60.96 0)
 		(effects
@@ -5547,16 +5310,6 @@
 		)
 		(uuid "5578fd77-5021-462b-98d2-93ac11496e57")
 	)
-	(label "scl"
-		(at 157.48 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "57bedea4-1d12-43eb-8225-f93a5ac68cad")
-	)
 	(label "CLK"
 		(at 100.33 129.54 0)
 		(effects
@@ -5586,16 +5339,6 @@
 			(justify right bottom)
 		)
 		(uuid "5ad39751-dcc0-4618-b3e4-e956e4c46b30")
-	)
-	(label "scl"
-		(at 153.67 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62b1298f-ed05-4cc9-9693-92e1b0594d4c")
 	)
 	(label "TXD"
 		(at 22.86 172.72 0)
@@ -5656,6 +5399,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f432355-d2e4-4c49-98d0-a0412797baaf")
+	)
+	(label "scl"
+		(at 105.41 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83f54da1-e3c9-4052-90cb-c062271787d7")
 	)
 	(label "NSS"
 		(at 100.33 144.78 0)
@@ -5726,26 +5479,6 @@
 			(justify right bottom)
 		)
 		(uuid "b94a1551-ae31-4e0d-85c2-ab88e7aa386b")
-	)
-	(label "sda"
-		(at 157.48 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd4abbf9-c27f-4e82-9e94-0a227322adbf")
-	)
-	(label "sda"
-		(at 153.67 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bfea1152-912f-4025-89d5-1bae7ff93aa0")
 	)
 	(label "MISO"
 		(at 207.01 132.08 0)
@@ -6328,73 +6061,6 @@
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38951dca-7430-46f4-9c1a-5370d7f493e1")
-		(property "Reference" "#PWR027"
-			(at 157.48 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa09d6a1-472b-48b9-ada1-087c6c433b38")
-		)
-		(instances
-			(project "PCB Rev2"
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7091,44 +6757,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 162.56 177.8 0)
+		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
+		(at 95.25 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7d5aa367-5541-4d6b-99f8-b65f5062e34d")
-		(property "Reference" "J6"
-			(at 163.83 177.7999 0)
+		(uuid "80631fc4-d954-4922-a0ae-c320e0a0d84e")
+		(property "Reference" "R6"
+			(at 97.79 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 163.83 180.3399 0)
+		(property "Value" "4.7kΩ"
+			(at 95.25 171.45 90)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
-			(at 162.56 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 177.8 0)
+		(property "Footprint" "PCM_JLCPCB:R_0402"
+			(at 97.028 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,8 +6793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 162.56 177.8 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
+			(at 95.25 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,22 +6802,178 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "ea4dbb4e-a8cf-4f18-b09b-e7e651736245")
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "7644059"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4701TCE"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Resistance" "4.7kΩ"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 95.25 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "5ceedc27-f881-4573-9b7a-3ca95dde3769")
+			(uuid "620b3ef4-2e0e-4fc8-a534-f23634d176b3")
 		)
 		(pin "2"
-			(uuid "c7287d1d-cb6e-4372-b37c-f38990f67c74")
-		)
-		(pin "3"
-			(uuid "59596973-12d6-4d68-ba86-74081ff780c5")
+			(uuid "dba83b8c-10bb-4c3a-aea1-57ba09decffe")
 		)
 		(instances
-			(project ""
+			(project "PCB Rev2"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885"
-					(reference "J6")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7358,7 +7171,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
-		(at 157.48 143.51 90)
+		(at 91.44 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7367,15 +7180,16 @@
 		(fields_autoplaced yes)
 		(uuid "8ee02539-14bf-47d7-b2d2-39371d1cc9a4")
 		(property "Reference" "R1"
-			(at 157.48 139.7 90)
+			(at 93.98 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "4.7kΩ"
-			(at 157.48 143.51 90)
+			(at 91.44 168.91 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7384,7 +7198,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 157.48 145.288 90)
+			(at 93.218 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7393,7 +7207,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7402,7 +7216,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,7 +7225,7 @@
 			)
 		)
 		(property "LCSC" "C25900"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,7 +7234,7 @@
 			)
 		)
 		(property "Stock" "7644059"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7429,7 +7243,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7252,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +7261,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +7270,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7279,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7288,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7297,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +7306,7 @@
 			)
 		)
 		(property "Part" "0402WGF4701TCE"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7501,7 +7315,7 @@
 			)
 		)
 		(property "Resistance" "4.7kΩ"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7324,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,7 +7333,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,7 +7342,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7351,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7360,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +7369,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 157.48 143.51 0)
+			(at 91.44 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7384,7 @@
 			(uuid "50afb245-803a-47de-a91f-4654c06e7f29")
 		)
 		(instances
-			(project ""
+			(project "PCB Rev2"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885"
 					(reference "R1")
 					(unit 1)
@@ -8344,228 +8158,6 @@
 			(project "PCB Rev2"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Resistors:0402,4.7kΩ")
-		(at 157.48 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d56c46ab-3b32-40af-94a7-99ed5c9d52de")
-		(property "Reference" "R6"
-			(at 157.48 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7kΩ"
-			(at 157.48 147.32 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 157.48 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF4701TCE_C25900.pdf"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 4.7kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "7644059"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "20"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF4701TCE"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "4.7kΩ"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7a35fde-53ca-48c2-8a29-274365bba0e0")
-		)
-		(pin "2"
-			(uuid "7b5f710f-48a0-42a6-b491-69210fd342f2")
-		)
-		(instances
-			(project "PCB Rev2"
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885"
-					(reference "R6")
 					(unit 1)
 				)
 			)
