@@ -149,156 +149,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D3"
-				(at -0.3175 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at -0.3175 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprints:CR_SMP_DO-220AA_VIS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/SS2PH5HM3-84A/5427035"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0.635) (xy 1.905 1.27) (xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.635 -1.27) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -454,6 +304,368 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib:LMJ316BB7226KLHT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22uF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:C1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/LMJ316BB7226KLHT/543117.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitance:22uF Tolerance:±10% Tolerance:±10% Voltage Rating:10V Temperature Coefficient:X7R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "LMJ316BB7226KLHT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TAIYO YUDEN(太诱)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C524990"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "MBJCL31LBB7226KTPA01 22uF ±10% 10V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMJ316BB7226KLHT_1_0"
+				(polyline
+					(pts
+						(xy -0.508 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -2.032) (xy -0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA_Lib:MBRM2H100T3G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA_Lib:POWERMITE_L2.0-W1.9-LS3.8-RD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/MBRM2H100T3G/469049.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage - Forward(Vf@If):840mV@2.0A Voltage - DC Reverse(Vr):100V Current - Rectified:2A Reverse Leakage Current (Ir):20uA@100V Operating Junction Temperature Range:-65°C~+175°C Operating Junction Temperature Range:-65°C~+175°C Non-Repetitive Peak Forward Sur"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "MBRM2H100T3G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "onsemi(安森美)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C464198"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "电压:100V 电流:2A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBRM2H100T3G_1_0"
+				(polyline
+					(pts
+						(xy -1.778 1.27) (xy -1.778 1.778) (xy -1.778 1.778) (xy -1.27 1.778) (xy -1.27 1.778) (xy -1.27 -1.778)
+						(xy -1.27 -1.778) (xy -0.762 -1.778) (xy -0.762 -1.778) (xy -0.762 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
 							)
 						)
 					)
@@ -1053,6 +1265,12 @@
 		(uuid "03d889bc-8d3f-4008-9d98-e70fdc75ebed")
 	)
 	(junction
+		(at 250.19 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e99f8b-c1ef-488d-82f4-bc1a01049969")
+	)
+	(junction
 		(at 87.63 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1113,12 +1331,6 @@
 		(uuid "c81a6974-8b2a-42a7-9114-698e6bd99907")
 	)
 	(junction
-		(at 250.19 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de41e3bf-c056-4575-8b1f-bb5b8a8f5f3d")
-	)
-	(junction
 		(at 95.25 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1177,6 +1389,16 @@
 			(type default)
 		)
 		(uuid "15160f0c-0956-4dfb-a559-7136eff3a151")
+	)
+	(wire
+		(pts
+			(xy 250.19 50.8) (xy 264.16 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c8ee845-9ef1-4408-bdc2-0a82ad0ad2b6")
 	)
 	(wire
 		(pts
@@ -1250,16 +1472,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 50.8) (xy 87.63 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b06e30-d53b-4d2a-bbc6-c58e2bbba145")
-	)
-	(wire
-		(pts
 			(xy 189.23 50.8) (xy 194.31 50.8)
 		)
 		(stroke
@@ -1320,6 +1532,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 72.39) (xy 250.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f382cc-2e87-42f7-b624-794bb050c3a4")
+	)
+	(wire
+		(pts
 			(xy 87.63 68.58) (xy 87.63 85.09)
 		)
 		(stroke
@@ -1347,6 +1569,16 @@
 			(type default)
 		)
 		(uuid "8b8158a6-b0b0-4ee3-b80e-ac3d10c35a27")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 87.63 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba2a02f-6f05-4f79-ba50-28b38a892cf2")
 	)
 	(wire
 		(pts
@@ -1410,16 +1642,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 69.85) (xy 250.19 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c06dab40-194f-496c-817d-197ea7f304dd")
-	)
-	(wire
-		(pts
 			(xy 201.93 50.8) (xy 203.2 50.8)
 		)
 		(stroke
@@ -1427,16 +1649,6 @@
 			(type default)
 		)
 		(uuid "c5f62a75-93e9-447f-82ef-1f1eab9c4769")
-	)
-	(wire
-		(pts
-			(xy 250.19 50.8) (xy 264.16 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c877883e-f886-4376-b4cc-16aeacd7831b")
 	)
 	(wire
 		(pts
@@ -1541,6 +1753,119 @@
 		(uuid "f819198e-5fad-4f96-8bf5-2dcc8cc7f535")
 	)
 	(symbol
+		(lib_id "EasyEDA_Lib:LMJ316BB7226KLHT")
+		(at 250.19 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "196b89c4-6d83-4bfd-a3c7-8887c070496c")
+		(property "Reference" "C10"
+			(at 254 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22uF"
+			(at 248.92 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA_Lib:C1206"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/LMJ316BB7226KLHT/543117.html"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitance:22uF Tolerance:±10% Tolerance:±10% Voltage Rating:10V Temperature Coefficient:X7R"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "LMJ316BB7226KLHT"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN(太诱)"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C524990"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "MBJCL31LBB7226KTPA01 22uF ±10% 10V"
+			(at 250.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1385087-9738-4a60-835f-d3ff1dce0ad0")
+		)
+		(pin "2"
+			(uuid "7a1772a4-1847-46f5-930c-a725ccf2a9cc")
+		)
+		(instances
+			(project ""
+				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 85.09 0)
 		(unit 1)
@@ -1615,7 +1940,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3ea90500-8bd5-4b90-968d-7f911e46b0c4")
+		(uuid "3663db10-84ed-47eb-b895-4f9b6db308b2")
 		(property "Reference" "C3"
 			(at 99.06 63.4999 0)
 			(effects
@@ -1634,7 +1959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC2012X150N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 68.58 0)
 			(effects
 				(font
@@ -1643,7 +1968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/LMK107BJ475KAHT/4157765"
 			(at 95.25 64.77 0)
 			(effects
 				(font
@@ -1653,15 +1978,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 95.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "CGA4J1X7R1H475K125AC"
 			(at 95.25 64.77 0)
 			(effects
 				(font
@@ -1715,14 +2031,23 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c3fb3882-6111-4154-b629-bbbe3857c44d")
+		(property "Part #" "LMK107BJ475KAHT"
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "479414f2-4f5f-4156-86ac-a04f81ed0e09")
+			(uuid "691f65fd-a785-43e9-a2a6-f5c3cdd486a7")
+		)
+		(pin "2"
+			(uuid "35b88990-9650-4e4a-adfe-8b74a77ccff7")
 		)
 		(instances
-			(project "Data Logger Rev1"
+			(project "PCB Rev2"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
 					(reference "C3")
 					(unit 1)
@@ -1855,44 +2180,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 250.19 66.04 0)
+		(lib_id "EasyEDA_Lib:MBRM2H100T3G")
+		(at 53.34 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "71644ddb-0f4d-47c7-bdb4-b7691ba900ba")
-		(property "Reference" "C7"
-			(at 254 64.7699 0)
+		(uuid "8a15d50a-0b51-41fb-a63e-750f2de4d599")
+		(property "Reference" "D2"
+			(at 53.34 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 254 67.3099 0)
+		(property "Value" "~"
+			(at 53.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CAPC3216X190N"
-			(at 251.1552 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/LMJ316BB7226KLHT/5214839"
-			(at 250.19 66.04 0)
+		(property "Footprint" "EasyEDA_Lib:POWERMITE_L2.0-W1.9-LS3.8-RD"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,8 +2214,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 250.19 66.04 0)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/MBRM2H100T3G/469049.html"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,8 +2223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" "LMJ316BB7226KLHT"
-			(at 250.19 66.04 0)
+		(property "Description" "Voltage - Forward(Vf@If):840mV@2.0A Voltage - DC Reverse(Vr):100V Current - Rectified:2A Reverse Leakage Current (Ir):20uA@100V Operating Junction Temperature Range:-65°C~+175°C Operating Junction Temperature Range:-65°C~+175°C Non-Repetitive Peak Forward Sur"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,8 +2232,8 @@
 				(hide yes)
 			)
 		)
-		(property "AVAILABILITY" ""
-			(at 250.19 66.04 0)
+		(property "Manufacturer Part" "MBRM2H100T3G"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,8 +2241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Color " ""
-			(at 250.19 66.04 0)
+		(property "Manufacturer" "onsemi(安森美)"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,8 +2250,8 @@
 				(hide yes)
 			)
 		)
-		(property "DESCRIPTION" ""
-			(at 250.19 66.04 0)
+		(property "Supplier Part" "C464198"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,8 +2259,8 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" ""
-			(at 250.19 66.04 0)
+		(property "Supplier" "LCSC"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,25 +2268,25 @@
 				(hide yes)
 			)
 		)
-		(property "PRICE" ""
-			(at 250.19 66.04 0)
+		(property "LCSC Part Name" "电压:100V 电流:2A"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "3d1ba23c-64e9-4afe-855e-34a87c8ff6e5")
 		)
 		(pin "1"
-			(uuid "e6158520-38c3-41e7-bd51-ff57a7ee4721")
+			(uuid "5bf45c4f-e5a8-4b25-b3bb-1eece5db8a6d")
+		)
+		(pin "2"
+			(uuid "822fcf85-4d82-4933-ad7e-029b999a98dc")
 		)
 		(instances
-			(project "Data Logger Rev1"
+			(project ""
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "C7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2475,133 +2789,6 @@
 			(project "Data Logger Rev1"
 				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
 					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 52.07 50.8 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daa2d33e-81a8-4b04-b170-9c311f5751ba")
-		(property "Reference" "D3"
-			(at 52.3875 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 52.3875 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:CR_SMP_DO-220AA_VIS"
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/SS2PH5HM3-84A/5427035"
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color " ""
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" "SS2PH5HM3-84A"
-			(at 52.07 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "893514f8-aceb-4e23-93eb-a01dd1f69a91")
-		)
-		(pin "1"
-			(uuid "3a55d287-123a-42a0-9e22-4acfe1d4c470")
-		)
-		(instances
-			(project ""
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/9457203e-0dfd-4ada-afdd-4fb87fc753fe"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/adf54578-0edd-4ea8-a516-35041fcd2885/d189fb14-1a29-4323-9eac-9960cf5e0868"
-					(reference "D3")
 					(unit 1)
 				)
 			)
