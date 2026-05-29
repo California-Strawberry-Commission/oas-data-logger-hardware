@@ -5829,7 +5829,7 @@
 		(at 36.83 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6030,7 +6030,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "C3816889"
 			(at 74.93 165.1 0)
 			(effects
 				(font
@@ -6215,7 +6215,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_B_Micro"
+		(property "Value" "C132562"
 			(at 35.56 24.13 0)
 			(effects
 				(font
@@ -6481,7 +6481,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "C464198"
 			(at 55.88 77.47 0)
 			(effects
 				(font
@@ -6595,7 +6595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "C7202986"
 			(at 69.85 74.4219 0)
 			(effects
 				(font
@@ -6699,7 +6699,7 @@
 		(at 83.82 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "720ad396-3c24-484b-80bb-ec9c6a5bddce")
@@ -6830,7 +6830,7 @@
 				)
 			)
 		)
-		(property "Value" "BATTERY_PLUG"
+		(property "Value" "C3029316"
 			(at 24.765 140.97 0)
 			(effects
 				(font
@@ -7526,7 +7526,7 @@
 		(at 158.75 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7926,7 +7926,7 @@
 				)
 			)
 		)
-		(property "Value" "12V_Tractor"
+		(property "Value" "C3029316"
 			(at -3.175 60.96 0)
 			(effects
 				(font
@@ -8035,7 +8035,7 @@
 		(at 29.21 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8445,7 +8445,7 @@
 		(at 123.19 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "eabf3f33-b1b8-4810-a3b1-b0c9d83cffae")
@@ -8632,7 +8632,7 @@
 		(at 87.63 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8766,7 +8766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "C553388"
 			(at 14.478 75.692 90)
 			(effects
 				(font
