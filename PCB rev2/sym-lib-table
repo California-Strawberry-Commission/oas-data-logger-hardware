@@ -15,4 +15,5 @@
   (lib (name "RGB_LED")(type "KiCad")(uri "${KIPRJMOD}/symbols/2025-10-23_21-27-42.kicad_sym")(options "")(descr ""))
   (lib (name "Switch_but")(type "KiCad")(uri "${KIPRJMOD}/symbols/B3F-1000.kicad_sym")(options "")(descr ""))
   (lib (name "LoRa_Module")(type "KiCad")(uri "${KIPRJMOD}/symbols/Wio-SX1262 Schematic Package.kicad_sym")(options "")(descr ""))
+  (lib (name "can_transceiver")(type "KiCad")(uri "${KIPRJMOD}/symbols/PTCAN1044ADRQ1.kicad_sym")(options "")(descr ""))
 )

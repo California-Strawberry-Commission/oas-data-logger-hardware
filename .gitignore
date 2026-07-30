@@ -20,3 +20,9 @@ gerbers/
 # Backup files
 *~
 *.tmp
+
+# Editor local history (VS Code "Local History" extension)
+.history/
+
+# KiCad auto-backup archives
+*-backups/
