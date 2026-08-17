@@ -1,0 +1,296 @@
+(footprint "ACT45B-510-2P-TL003"
+	(version 20241209)
+	(generator "ai-eda-jlc-mcp")
+	(layer "F.Cu")
+	(descr "1Ω 2 2.8kΩ@10MHz 200kΩ 200mA 50V 51uH@100kHz SMD,4.5x3.2mm Common Mode Filters ROHS")
+	(tags "component")
+	(property "Reference" "REF**"
+		(at 0 -3.7 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ACT45B-510-2P-TL003"
+		(at 0 3.7 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1Ω 2 2.8kΩ@10MHz 200kΩ 200mA 50V 51uH@100kHz SMD,4.5x3.2mm Common Mode Filters ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C76584"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "TDK"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" "-40℃~+150℃"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Rating - DC" "50V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Insulation Resistance(IR)" "200kΩ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Impedance @ Frequency" "2.8kΩ@10MHz"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage Withstand" "50V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Number of Lines" "2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Current Rating" "200mA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DC Resistance(DCR)" "1Ω"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Inductance @ Frequency" "51uH@100kHz"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "3" smd roundrect
+		(at 2.28 1.2501 90)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "4" smd roundrect
+		(at 2.28 -1.2501 90)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "1" smd roundrect
+		(at -2.28 -1.2501 90)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "2" smd roundrect
+		(at -2.28 1.2501 90)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(fp_line
+		(start -1.4 -1.6)
+		(end 1.5 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 2.2 -0.6)
+		(end 2.2 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -2.2 -0.6)
+		(end -2.2 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -1.4 1.6)
+		(end 1.4 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -1.0999 -1.0999)
+		(end -1.0499 -1.0999)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center -2.25 -1.6)
+		(end -2.22 -1.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_line
+		(start -3.23 -2.2)
+		(end 3.23 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.23 -2.2)
+		(end 3.23 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 3.23 2.2)
+		(end -3.23 2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -3.23 2.2)
+		(end -3.23 -2.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/footprints.pretty/ACT45B-510-2P-TL003.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

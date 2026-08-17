@@ -1,0 +1,118 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "AQ24CANFD-02HTG" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -6.6 7.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "AQ24CANFD-02HTG" (id 1) (at -6.6 -8.5 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "footprints:AQ24CANFD-02HTG" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-tvs-diode-arrays-aq24canfd-datasheet?assetguid=904DCDA8-C41A-4094-8465-A68145C03361" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Littelfuse" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "TVS Diode Array 2-Ch 24VWM 50VC SOT23-3, CAN FD / automotive AEC-Q101" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "SOT23-3 Littelfuse" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "GD 07/21/22" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "AQ24CANFD-02HTG" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "AQ24CANFD-02HTG_0_0"
+      (rectangle (start -6.35 -6.35) (end 6.35 6.35)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (polyline
+        (pts (xy -1.27 1.524) (xy -1.27 3.556) (xy 0 2.54) (xy -1.27 1.524)) (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 1.27 1.524) (xy 1.27 3.556) (xy 0 2.54) (xy 1.27 1.524)) (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0 3.556) (xy 0 1.524)) (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 3.556) (xy -0.508 4.064)) (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 1.524) (xy 0.508 1.016)) (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -6.35 2.54) (xy -1.27 2.54)) (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy 3.81 2.54)) (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -1.27 -3.556) (xy -1.27 -1.524) (xy 0 -2.54) (xy -1.27 -3.556)) (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 1.27 -3.556) (xy 1.27 -1.524) (xy 0 -2.54) (xy 1.27 -3.556)) (stroke (width 0.254)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0 -1.524) (xy 0 -3.556)) (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 -1.524) (xy -0.508 -1.016)) (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 -3.556) (xy 0.508 -4.064)) (stroke (width 0.254)) (fill (type none))
+      )
+      (polyline
+        (pts (xy -6.35 -2.54) (xy -1.27 -2.54)) (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.27 -2.54) (xy 3.81 -2.54)) (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 3.81 2.54) (xy 3.81 -2.54)) (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 3.81 0) (xy 6.35 0)) (stroke (width 0)) (fill (type none))
+      )
+      (circle (center 3.81 2.54) (radius 0.254)
+        (stroke (width 0)) (fill (type outline))
+      )
+      (circle (center 3.81 -2.54) (radius 0.254)
+        (stroke (width 0)) (fill (type outline))
+      )
+      (pin passive line (at -11.43 2.54 0) (length 5.08)
+        (name "I/O1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -11.43 -2.54 0) (length 5.08)
+        (name "I/O2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 11.43 0 180) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

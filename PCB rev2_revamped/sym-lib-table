@@ -17,4 +17,7 @@
   (lib (name "LoRa_Module")(type "KiCad")(uri "${KIPRJMOD}/symbols/Wio-SX1262 Schematic Package.kicad_sym")(options "")(descr ""))
   (lib (name "can_transceiver")(type "KiCad")(uri "${KIPRJMOD}/symbols/PTCAN1044ADRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "EasyEDA_Lib")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/EasyEDA_Lib/EasyEDA_Lib.elibz")(options "")(descr ""))
+  (lib (name "tvs_canfd")(type "KiCad")(uri "${KIPRJMOD}/symbols/AQ24CANFD-02HTG.kicad_sym")(options "")(descr "Littelfuse AQ24CANFD-02HTG CAN FD TVS array"))
+  (lib (name "tvs_canfd_nxp")(type "KiCad")(uri "${KIPRJMOD}/symbols/PESD2CANFD24V-TR.kicad_sym")(options "")(descr "Nexperia PESD2CANFD24V-TR CAN FD ESD array (LCSC C552486)"))
+  (lib (name "cm_choke_can")(type "KiCad")(uri "${KIPRJMOD}/symbols/ACT45B-510-2P-TL003.kicad_sym")(options "")(descr "TDK ACT45B-510-2P-TL003 CAN common mode choke (LCSC C76584)"))
 )

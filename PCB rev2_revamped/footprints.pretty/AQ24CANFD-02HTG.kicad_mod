@@ -1,0 +1,310 @@
+(footprint "AQ24CANFD-02HTG"
+	(version 20241209)
+	(generator "ai-eda-jlc-mcp")
+	(layer "F.Cu")
+	(descr "Littelfuse AQ24CANFD-02HTG - 2-channel 24V bidirectional TVS diode array, SOT23-3 (TO-236AB). Pins 1/2 = I/O, pin 3 = GND."))
+	(tags "component")
+	(property "Reference" "REF**"
+		(at 0 -3.28 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AQ24CANFD-02HTG"
+		(at 0 3.28 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2.6A@8/20us 24V 25.5V 42V 50nA 6pF Bidirectional ESD IEC 61000-4-2 SOT-23 ESD and Surge Protection (TVS/ESD) ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C552486"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Nexperia(安世)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Operating Temperature" "-55℃~+175℃"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Type" "ESD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Junction Capacitance" "6pF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "level of protection" "IEC 61000-4-2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Clamping Voltage" "42V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Polarity" "Bidirectional"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Peak Pulse Current (Ipp)" "2.6A@8/20us"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Voltage - Breakdown" "25.5V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reverse Stand-Off Voltage (Vrwm)" "24V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reverse Leakage Current (Ir)" "50nA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		hide
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd roundrect
+		(at 1 0.95)
+		(size 1 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "2" smd roundrect
+		(at 1 -0.95)
+		(size 1 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(pad "3" smd roundrect
+		(at -1 0)
+		(size 1 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+	)
+	(fp_line
+		(start 0.7262 -1.5262)
+		(end -0.7262 -1.5262)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.7262 -1.5262)
+		(end -0.7262 -0.4946)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.7262 1.5262)
+		(end -0.7262 1.5262)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -0.7262 1.5262)
+		(end -0.7262 0.4946)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 0.7262 -0.4554)
+		(end 0.7262 0.4554)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_circle
+		(center 1.1999 1.4501)
+		(end 1.2299 1.4501)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 1.46 1.1001)
+		(end 1.5601 1.1001)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Cmts.User")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_line
+		(start -1.75 -1.78)
+		(end 1.81 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.81 -1.78)
+		(end 1.81 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.81 1.78)
+		(end -1.75 1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.75 1.78)
+		(end -1.75 -1.78)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/footprints.pretty/AQ24CANFD-02HTG.step"
+		(offset
+			(xyz -861.568 843.28 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
